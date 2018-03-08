@@ -1,13 +1,16 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import './App.css';
+import { Route, Switch } from 'react-router-dom';
+import Home from '../../pages/home';
+import radioactiveRhonda from '../../pages/radioactiveRhonda';
 
-import "./App.css";
-import { Route, Switch } from "react-router-dom";
-import Home from "../../pages/home";
-
-class App extends Component {
-	render() {
-		return <Route exact path="/" component={Home} />;
-	}
-}
+const App = () => (
+	<main>
+		<Switch>
+			<Route exact path="/" component={Home} />
+			<Route path="/radioactiverhonda" component={radioactiveRhonda} />
+		</Switch>
+	</main>
+);
 
 export default App;

@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
-import "./home.css";
+import "./radioactiveRhonda.css";
 
-class Home extends Component {
+class radioactiveRhonda extends Component {
 	render() {
 		return (
 			<div className="App">
 				<header className="App-header">
-					<h1 className="App-title">LILY WALES</h1>
+					<h1 className="App-title">RADIOACTIVE RHONDA!</h1>
 				</header>
 				<p className="App-intro">
 					To get started, edit <code>src/App.js</code> and save to reload.
@@ -17,4 +17,4 @@ class Home extends Component {
 	}
 }
 
-export default Home;
+export default radioactiveRhonda;
