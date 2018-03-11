@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import "./radioactiveRhonda.css";
+import './RadioactiveRhonda.css';
 
-class radioactiveRhonda extends Component {
+class RadioactiveRhonda extends Component {
 	render() {
 		return (
 			<div className="App">
@@ -17,4 +17,4 @@ class radioactiveRhonda extends Component {
 	}
 }
 
-export default radioactiveRhonda;
+export default RadioactiveRhonda;
