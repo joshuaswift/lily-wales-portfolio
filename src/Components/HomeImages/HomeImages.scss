@@ -1,0 +1,71 @@
+.homeImagesWrapper {
+  position: relative;
+  height: 100vh;
+  width: 61%;
+  left: 0%;
+}
+
+.titlesTextBox {
+  position: absolute;
+  top: 26%;
+  right: 0%;
+  // background-color: pink;
+  height: 400px;
+  width: 369px;
+  text-align: left;
+}
+
+
+.rhondaTitle {
+  color: rgb(18, 241, 47);
+}
+
+h2:hover {
+  color: black;
+}
+
+.babyJanesTitle {
+  color: rgb(230, 9, 155)
+}
+
+.bomTitle {
+  color: rgb(15, 157, 162);
+}
+
+.plumbobTitle {
+  color: rgb(0, 46, 250);
+}
+
+.LasVaguenessTitle {
+  color: rgb(255, 8, 8);
+}
+
+.nuclearosisTitle {
+  color: rgb(255, 139, 4)
+}
+
+.trumpinTitle {
+  color: rgb(238, 116, 249);
+}
+
+.phormTitle {
+  color: rgb(92, 4, 255);
+}
+
+.contactTitle {
+  color: rgb(1, 255, 194);
+}
+
+.copyrightBox {
+  position: absolute;
+  top: 2%;
+  color: rgb(117, 116, 128);
+}
+
+
+
+@keyframes visible {
+  opacity: 1;
+  transition: .5s ease;
+
+}

@@ -1,5 +1,5 @@
 //importing page components
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import Home from '../../pages/home';
@@ -13,8 +13,8 @@ import Phorm from '../../pages/Phorm';
 import OperationPlumbob from '../../pages/OperationPlumbob';
 import Nuclearosis from '../../pages/Nuclearosis';
 import WarMachine from '../../pages/WarMachine';
-//creating routes for site
 
+//creating routes for site
 const App = () => (
 	<main>
 		<Switch>
