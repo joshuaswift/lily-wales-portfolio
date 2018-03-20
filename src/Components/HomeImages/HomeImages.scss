@@ -9,19 +9,22 @@
 	position: absolute;
 	top: 26%;
 	right: 0%;
-	// background-color: pink;
 	height: 400px;
 	width: 369px;
 	text-align: left;
+}
+
+h2 {
+	color: rgb(0, 255, 224);
 }
 
 .rhondaTitle {
 	color: rgb(18, 241, 47);
 }
 
-// h2:hover {
-//   color: black;
-// }
+h2:hover {
+	color: red;
+}
 
 .babyJanesTitle {
 	color: rgb(230, 9, 155);
@@ -35,7 +38,7 @@
 	color: rgb(0, 46, 250);
 }
 
-.LasVaguenessTitle {
+.lasVaguenessHomeImg {
 	color: rgb(255, 8, 8);
 }
 
@@ -68,4 +71,13 @@
 @keyframes visible {
 	opacity: 1;
 	transition: 0.5s ease;
+}
+
+.title {
+	color: rgb(0, 255, 224);
+}
+
+.plumbob {
+	position: absolute;
+	left: 15%;
 }

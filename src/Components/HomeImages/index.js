@@ -4,7 +4,12 @@ import rhondaHomeImg from './rhondaHome.png';
 import plumbobHomeImg from './operationPlumbobHome.png';
 import phormHomeImg from './phormHome.png';
 import trumpinHomeImg from './trumpinHome.png';
+import babyJanesHomeImg from './babyJaneHome.png';
+import warMachineHomeImg from './warMachineHome.png';
+import lasVaguenessHomeImg from './lasVaguenessHome.png';
+import bomHomeImg from './bomHome.png';
 import nuclearosisHomeImg from './nuclearosisHome.png';
+import contactHomeImg from './contactHome.png';
 
 const styles = {
 	homeImg: {
@@ -18,30 +23,39 @@ class HomeImages extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
+			//a random item
 			selection: null
 		};
 	}
 
 	onEnter = item => {
 		this.setState(prevState => ({
+			//the chosen item
 			selection: item
 		}));
 	};
 
-	onLeave = () => {
-		this.setState(prevState => ({
-			selection: null
-		}));
-	};
 	render() {
 		const images = [
-			//...put the images in here, e.g.
-			{ label: 'Operation Plumbob', src: plumbobHomeImg },
-			{ label: 'Radioactive Rhonda', src: rhondaHomeImg },
-			{ label: 'Phorm', src: phormHomeImg },
+			{
+				label: 'Operation Plumbob',
+				src: plumbobHomeImg,
+				className: 'plumbob'
+			},
+			{ label: 'Radioactive Rhonda!', src: rhondaHomeImg },
+			{ label: 'Phorm', src: phormHomeImg, className: 'plumbob' },
 			{ label: 'Trumpin', src: trumpinHomeImg },
-			{ label: 'Nuclearosis', src: nuclearosisHomeImg }
+			{ label: 'Las Vagueness', src: lasVaguenessHomeImg },
+			{ label: 'War Machine', src: warMachineHomeImg },
+			{ label: 'Recreational Retina', src: bomHomeImg },
+			{
+				label: 'What Ever Happened to all the Baby Janes?',
+				src: babyJanesHomeImg
+			},
+			{ label: 'Nuclearosis', src: nuclearosisHomeImg },
+			{ label: 'Contact', src: contactHomeImg }
 		];
+
 		return (
 			<div>
 				<div className="homeImagesWrapper">
@@ -65,8 +79,8 @@ class HomeImages extends Component {
 						<h2
 							onMouseEnter={() => this.onEnter(index)}
 							onMouseLeave={this.onLeave}
-							colour={'rgb(0, 0, 0)'}
-							className="title"
+							// colour={'rgb(0, 0, 0)'}
+							className={selection.className}
 						>
 							{selection.label.toUpperCase()}
 						</h2>

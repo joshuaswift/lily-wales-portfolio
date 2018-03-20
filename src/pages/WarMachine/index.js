@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-
 import './WarMachine.css';
+import LilyWales from './../../Components/LilyWales';
+import WMimages from './../../Components/WMimages';
+import WMtext from './../../Components/WMtext';
 
 class WarMachine extends Component {
 	render() {
 		return (
-			<div className="App">
-				<header className="App-header">
-					<h1 className="App-title">WAR MACHINE</h1>
-				</header>
+			<div>
+				<WMimages />
+				<LilyWales />
+				<WMtext />
 			</div>
 		);
 	}
