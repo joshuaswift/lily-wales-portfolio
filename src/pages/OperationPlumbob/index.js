@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-
 import './OperationPlumbob.css';
+import LilyWales from './../../Components/LilyWales';
+import ProjectTitle from './../../Components/ProjectTitle';
+import OPimages from './../../Components/OPimages';
 
 class OperationPlumbob extends Component {
 	render() {
 		return (
-			<div className="App">
-				<header className="App-header">
-					<h1 className="App-title">OPERATION PLUMBOB</h1>
-				</header>
+			<div>
+				<OPimages />
+				<LilyWales />
 			</div>
 		);
 	}
