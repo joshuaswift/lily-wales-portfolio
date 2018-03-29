@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './WMimages.css';
 import wm1 from './wm1.jpg';
 import wm23 from './wm2-3.png';
@@ -20,7 +19,6 @@ class WMimages extends Component {
 					<img className="wm8-9" src={wm89} alt="War Machine 8 & 9" />
 					<img className="wm10" src={wm10} alt="War Machine 10" />
 				</div>
-				<Link to="/">HOME</Link>
 			</div>
 		);
 	}
