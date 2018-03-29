@@ -42,7 +42,11 @@ class HomeImages extends Component {
 				src: plumbobHomeImg,
 				className: 'plumbob'
 			},
-			{ label: 'Radioactive Rhonda!', src: rhondaHomeImg },
+			{
+				label: 'Radioactive Rhonda!',
+				src: rhondaHomeImg,
+				className: 'rhonda'
+			},
 			{ label: 'Phorm', src: phormHomeImg, className: 'plumbob' },
 			{ label: 'Trumpin', src: trumpinHomeImg },
 			{ label: 'Las Vagueness', src: lasVaguenessHomeImg },
