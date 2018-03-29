@@ -1,15 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const HomeButton = props => {
+const BackToTop = props => {
 	const styles = {
-		home: {
+		backToTop: {
 			position: 'absolute',
 			fontSize: '1.5rem',
 			color: props.color || 'rgb(0, 41, 255)',
 			top: props.top,
 			left: props.left,
-			right: props.right,
 			textDecoration: 'none',
 			fontFamily: 'Archivo Black'
 		}
@@ -17,10 +16,11 @@ const HomeButton = props => {
 
 	return (
 		<div>
-			<Link to="/" style={styles.home}>
-				HOME
+			<Link to="/warmachine" style={styles.backToTop}>
+				BACK TO TOP
 			</Link>
 		</div>
 	);
 };
-export default HomeButton;
+
+export default BackToTop;
