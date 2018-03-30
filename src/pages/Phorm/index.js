@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-
+import LilyWales from './../../Components/LilyWales';
 import './Phorm.css';
 
 class Phorm extends Component {
 	render() {
 		return (
-			<div className="App">
-				<header className="App-header">
-					<h1 className="App-title">PHORM</h1>
-				</header>
+			<div>
+				<LilyWales />
 			</div>
 		);
 	}

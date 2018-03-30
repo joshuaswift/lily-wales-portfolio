@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-
+import LilyWales from './../../Components/LilyWales';
 import './Bom.css';
 
 class Bom extends Component {
 	render() {
 		return (
-			<div className="App">
-				<header className="App-header">
-					<h1 className="App-title">BOM</h1>
-				</header>
+			<div>
+				<LilyWales color="rgb(255,114,0)" />
 			</div>
 		);
 	}
