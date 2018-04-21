@@ -14,7 +14,7 @@ class WarMachine extends Component {
 				<LilyWales color={'rgb(0, 41, 255)'} />
 				<WMtext />
 				<HomeButton top={'639%'} left={'35%'} />
-				<BackToTop top={'636%'} left={'26.5%'} />
+				<BackToTop top={'629%'} left={'26%'} />
 			</div>
 		);
 	}

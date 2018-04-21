@@ -5,8 +5,7 @@ import ProjectTitle from './../../Components/ProjectTitle';
 import OPimages from './../../Components/OPimages';
 import OPText from './../../Components/OPText';
 import HomeButton from './../../Components/HomeButton';
-//
-// titles.map(title => <ProjectTitle title={title}/>)
+// import ScrollToTop from './../../Components/ScrollToTop';
 
 class OperationPlumbob extends Component {
 	render() {
@@ -16,9 +15,13 @@ class OperationPlumbob extends Component {
 				<OPText />
 				<LilyWales color="rgb(255,32,32)" />
 				<HomeButton color="rgb(255,32,32)" top="511%" right="44%" />
+				{/* <ScrollToTop color="rgb(255,32,32)" top="500%" right="44%" /> */}
+				{/* titles.map(title => <ProjectTitle title={title} /> */}
 			</div>
 		);
 	}
 }
 
 export default OperationPlumbob;
+
+// <div className="animate-bottom" >

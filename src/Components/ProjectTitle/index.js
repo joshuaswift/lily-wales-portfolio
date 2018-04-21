@@ -8,20 +8,20 @@ const ProjectTitle = props => {
 			color: props.color || 'rgb(245, 27, 236)',
 			top: '107px',
 			fontSize: '3.3rem'
-		},
-		titles: [
-			'Operation Pumbob',
-			'Radioactive Rhonda',
-			'Phorm',
-			'Trumpin',
-			'Las Vagueness',
-			'War Machine',
-			'Contact',
-			'What ever happened to all the Baby Janes?',
-			'Recreational Retina',
-			'Nuclearosis'
-		]
+		}
 	};
+	const titles = [
+		'Operation Pumbob',
+		'Radioactive Rhonda',
+		'Phorm',
+		'Trumpin',
+		'Las Vagueness',
+		'War Machine',
+		'Contact',
+		'What ever happened to all the Baby Janes?',
+		'Recreational Retina',
+		'Nuclearosis'
+	];
 
 	return (
 		<div style={styles.title}>

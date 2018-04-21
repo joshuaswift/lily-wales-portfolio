@@ -6,7 +6,7 @@ const styles = {
 		position: 'absolute',
 		right: '5.5%',
 		top: '35%',
-		width: '240px'
+		width: '300px'
 	},
 	wmDescription: {
 		textAlign: 'right',
@@ -30,7 +30,7 @@ class WMtext extends Component {
 					WAR MACHINE
 				</h1>
 				<div className="wmWrapper" style={styles.wmWrapper}>
-					<h3 className="wmDescription" style={styles.wmDescription}>
+					<p className="wmDescription" style={styles.wmDescription}>
 						In this series the<br />
 						notion of war is<br />explored through<br />the juxtaposition<br />
 						of predatory<br />
@@ -38,7 +38,7 @@ class WMtext extends Component {
 						<br />
 						exhibited at The<br />
 						Photographers<br />Wall & Argentea<br />Gallery.
-					</h3>
+					</p>
 				</div>
 			</div>
 		);

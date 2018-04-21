@@ -10,6 +10,7 @@ import lasVaguenessHomeImg from './lasVaguenessHome.png';
 import bomHomeImg from './bomHome.png';
 import nuclearosisHomeImg from './nuclearosisHome.png';
 import contactHomeImg from './contactHome.png';
+import aboutHomeImg from './aboutHome.png';
 
 const styles = {
 	homeImg: {
@@ -23,14 +24,12 @@ class HomeImages extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			//a random item
 			selection: null
 		};
 	}
 
 	onEnter = item => {
 		this.setState(prevState => ({
-			//the chosen item
 			selection: item
 		}));
 	};
@@ -50,14 +49,15 @@ class HomeImages extends Component {
 			{ label: 'Phorm', src: phormHomeImg, className: 'plumbob' },
 			{ label: 'Trumpin', src: trumpinHomeImg },
 			{ label: 'Las Vagueness', src: lasVaguenessHomeImg },
-			{ label: 'War Machine', src: warMachineHomeImg },
+			{ label: 'War Machine', src: warMachineHomeImg, path: '/warmachine' },
 			{ label: 'Recreational Retina', src: bomHomeImg },
 			{
 				label: 'What Ever Happened to all the Baby Janes?',
 				src: babyJanesHomeImg
 			},
 			{ label: 'Nuclearosis', src: nuclearosisHomeImg },
-			{ label: 'Contact', src: contactHomeImg }
+			{ label: 'Contact', src: contactHomeImg },
+			{ label: 'About', src: aboutHomeImg }
 		];
 
 		return (
@@ -75,6 +75,7 @@ class HomeImages extends Component {
 								style={styles.homeImg}
 								src={selection.src}
 								alt={selection.label}
+								href={selection.href}
 							/>
 						))}
 				</div>
@@ -83,7 +84,6 @@ class HomeImages extends Component {
 						<h2
 							onMouseEnter={() => this.onEnter(index)}
 							onMouseLeave={this.onLeave}
-							// colour={'rgb(0, 0, 0)'}
 							className={selection.className}
 						>
 							{selection.label.toUpperCase()}

@@ -10,6 +10,7 @@ const HomeButton = props => {
 			top: props.top,
 			left: props.left,
 			right: props.right,
+			bottom: props.bottom,
 			textDecoration: 'none',
 			fontFamily: 'Archivo Black'
 		}

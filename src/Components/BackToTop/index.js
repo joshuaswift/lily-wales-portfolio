@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const BackToTop = props => {
 	const styles = {
@@ -16,11 +15,13 @@ const BackToTop = props => {
 
 	return (
 		<div>
-			<Link to="/warmachine" style={styles.backToTop}>
-				BACK TO TOP
-			</Link>
+			<a style={styles.backToTop}>BACK TO TOP</a>
 		</div>
 	);
 };
 
 export default BackToTop;
+
+// componentDidMount() {
+//  window.scrollTo(0, 0)
+// }
