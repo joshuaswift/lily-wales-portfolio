@@ -13,7 +13,7 @@ class OPText extends Component {
 		return (
 			<div>
 				<div className="OPTextWrapper">
-					<h3>
+					<p>
 						{' '}
 						5, 4, 3, 2, 1. They were<br />just words. One<br /> American town
 						looks<br />
@@ -35,7 +35,7 @@ class OPText extends Component {
 						safety are<br /> the four basic doctrines<br /> that protect our
 						homes,<br /> our cities. Then a loud<br />
 						splash in the toilet. I’d<br /> given birth to a tumour.
-					</h3>
+					</p>
 				</div>
 				<h3 style={styles.oPTitles} className="manhattenTitle">
 					Mr Manhatten
