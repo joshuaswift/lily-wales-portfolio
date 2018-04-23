@@ -20,6 +20,11 @@ class RText extends Component {
 						and Smokey to<br /> name a few.
 					</p>
 				</div>
+				<p className="photo-credit">
+					Also exhibited<br />Airspace<br />Gallery,<br />Stoke-on-Trent<br />
+					<br />
+					Photo credit:<br />Murdock<br />
+				</p>
 			</div>
 		);
 	}
