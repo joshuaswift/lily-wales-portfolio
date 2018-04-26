@@ -14,14 +14,15 @@ const BackToTop = props => {
 	};
 
 	return (
-		<div>
-			<a style={styles.backToTop}>BACK TO TOP</a>
+		<div
+			onClick={() => {
+				window && window.scrollTo(0, 0);
+			}}
+			style={styles.backToTop}
+		>
+			BACK TO TOP
 		</div>
 	);
 };
 
 export default BackToTop;
-
-// componentDidMount() {
-//  window.scrollTo(0, 0)
-// }

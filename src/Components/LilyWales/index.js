@@ -6,7 +6,7 @@ const LilyWales = props => {
 			position: 'absolute',
 			top: '122px',
 			right: '5.5%',
-			fontSize: '5.5rem',
+			fontSize: '5.6rem',
 			lineHeight: '0',
 			margin: '0',
 			padding: '0',

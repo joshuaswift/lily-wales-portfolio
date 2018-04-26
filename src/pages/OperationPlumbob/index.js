@@ -16,7 +16,7 @@ class OperationPlumbob extends Component {
 				<LilyWales color="rgb(255,32,32)" />
 				<HomeButton color="rgb(255,32,32)" top="511%" right="44%" />
 				{/* <ScrollToTop color="rgb(255,32,32)" top="500%" right="44%" /> */}
-				{/* titles.map(title => <ProjectTitle title={title} /> */}
+				<ProjectTitle title="Operation Plumbob" />
 			</div>
 		);
 	}

@@ -5,12 +5,14 @@ import WMimages from './../../Components/WMimages';
 import WMtext from './../../Components/WMtext';
 import HomeButton from './../../Components/HomeButton';
 import BackToTop from './../../Components/BackToTop';
+import ProjectTitle from './../../Components/ProjectTitle';
 
 class WarMachine extends Component {
 	render() {
 		return (
 			<div>
 				<WMimages />
+				<ProjectTitle title="War Machine" color="rgb(245, 27, 236)" />
 				<LilyWales color={'rgb(0, 41, 255)'} />
 				<WMtext />
 				<HomeButton top={'639%'} left={'35%'} />

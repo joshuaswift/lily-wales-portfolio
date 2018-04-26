@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import './HomeImages.css';
 import rhondaHomeImg from './rhondaHome.png';
 import plumbobHomeImg from './operationPlumbobHome.png';
@@ -24,7 +25,7 @@ class HomeImages extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			selection: null
+			selection: 0
 		};
 	}
 
@@ -65,10 +66,7 @@ class HomeImages extends Component {
 				<div className="homeImagesWrapper">
 					{images
 						.filter((selection, index) => {
-							if (this.state.selection !== null && this.state.selection >= 0) {
-								return this.state.selection === index;
-							}
-							return true;
+							return this.state.selection === index;
 						})
 						.map(selection => (
 							<img
@@ -81,13 +79,15 @@ class HomeImages extends Component {
 				</div>
 				<div className="titlesTextBox">
 					{images.map((selection, index) => (
-						<h2
-							onMouseEnter={() => this.onEnter(index)}
-							onMouseLeave={this.onLeave}
-							className={selection.className}
-						>
-							{selection.label.toUpperCase()}
-						</h2>
+						<NavLink to={selection.path || '/'}>
+							<h2
+								onMouseEnter={() => this.onEnter(index)}
+								onMouseLeave={this.onLeave}
+								className={selection.className}
+							>
+								{selection.label.toUpperCase()}
+							</h2>
+						</NavLink>
 					))}
 				</div>
 				<div className="copyrightBox">
