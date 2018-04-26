@@ -7,12 +7,12 @@
 	background-color: rgb(238, 141, 175);
 }
 
-// .hair {
-// 	position: absolute;
-// 	top: 5%;
-// 	height: 30%;
-// 	left: 20%;
-// }
+.hair {
+	position: absolute;
+	top: 5%;
+	height: 30%;
+	left: 20%;
+}
 
 .leftEar {
 	position: absolute;
@@ -70,8 +70,10 @@
 	height: 20%;
 }
 
-.shakeanimation: shake 0.5s;
-animation-iteration-count: infinite;
+.shake {
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
 
 @keyframes shake {
 	0% {

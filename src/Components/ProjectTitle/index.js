@@ -6,26 +6,14 @@ const ProjectTitle = props => {
 			position: 'absolute',
 			right: '5.5%',
 			color: props.color || 'rgb(245, 27, 236)',
-			top: '107px',
-			fontSize: '3.3rem'
+			top: '102px',
+			fontSize: '1.9em',
+			textAlign: 'right'
 		}
 	};
-	const titles = [
-		'Operation Pumbob',
-		'Radioactive Rhonda',
-		'Phorm',
-		'Trumpin',
-		'Las Vagueness',
-		'War Machine',
-		'Contact',
-		'What ever happened to all the Baby Janes?',
-		'Recreational Retina',
-		'Nuclearosis'
-	];
-
 	return (
 		<div style={styles.title}>
-			<h1>{props.title}</h1>
+			<h1>{props.title.toUpperCase()}</h1>
 		</div>
 	);
 };
