@@ -8,7 +8,9 @@ const BackToTop = props => {
 			color: props.color || 'rgb(0, 41, 255)',
 			top: props.top,
 			left: props.left,
+			right: props.right,
 			textDecoration: 'none',
+			cursor: 'pointer',
 			fontFamily: 'Archivo Black'
 		}
 	};

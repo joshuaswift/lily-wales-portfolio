@@ -1,0 +1,35 @@
+.wrapper {
+	width: 100vw;
+}
+
+.aboutImg {
+	position: absolute;
+	height: 100%;
+	left: 4%;
+	top: 8%;
+}
+
+.aboutWrapper {
+	position: absolute;
+	right: 5.5%;
+	top: 40%;
+	height: 800px;
+	width: 350px;
+	text-align: right;
+	color: rgb(0, 204, 255);
+}
+
+.currentWrapper {
+	position: absolute;
+	left: 8%;
+	top: 145%;
+	color: rgb(255, 126, 0);
+}
+
+.pastWrapper {
+	position: absolute;
+	left: 8%;
+	top: 145%;
+	color: rgb(174, 0, 255);
+	line-height: 1.5;
+}

@@ -13,6 +13,7 @@ import Phorm from '../../pages/Phorm';
 import OperationPlumbob from '../../pages/OperationPlumbob';
 import Nuclearosis from '../../pages/Nuclearosis';
 import WarMachine from '../../pages/WarMachine';
+import About from '../../pages/About';
 
 //creating routes for site
 const App = () => (
@@ -27,8 +28,9 @@ const App = () => (
 			<Route path="/lasvagueness" component={LasVagueness} />
 			<Route path="/phorm" component={Phorm} />
 			<Route path="/operationplumbob" component={OperationPlumbob} />
-			<Route path="/Nuclearosis" component={Nuclearosis} />
+			<Route path="/nuclearosis" component={Nuclearosis} />
 			<Route path="/warmachine" component={WarMachine} />
+			<Route path="/about" component={About} />
 		</Switch>
 	</main>
 );

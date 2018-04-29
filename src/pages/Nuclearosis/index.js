@@ -10,6 +10,7 @@ class Nuclearosis extends Component {
 			<div>
 				<ProjectTitle title="Nuclearosis" />
 				<LilyWales />
+				<BackToTop />
 			</div>
 		);
 	}

@@ -9,8 +9,8 @@ class LasVagueness extends Component {
 		return (
 			<div>
 				<ProjectTitle title="Las Vagueness" />
-
 				<LilyWales />
+				<BackToTop />
 			</div>
 		);
 	}

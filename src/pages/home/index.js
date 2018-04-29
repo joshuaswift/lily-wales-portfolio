@@ -8,7 +8,7 @@ class Home extends Component {
 		return (
 			<div className="App animate-bottom">
 				<HomeImages />
-				<LilyWales />
+				<LilyWales color="rgb(255,71,153)" />
 			</div>
 		);
 	}

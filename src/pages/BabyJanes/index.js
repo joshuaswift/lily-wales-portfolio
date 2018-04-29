@@ -19,6 +19,7 @@ class BabyJanes extends Component {
 					title="What ever happened to all the Baby Janes?"
 					color="rgb(108, 0, 255)"
 				/>
+				<BackToTop top="874%" color="rgb(255,114,0)" right="35%" />
 			</div>
 		);
 	}

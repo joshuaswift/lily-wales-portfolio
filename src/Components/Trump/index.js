@@ -9,8 +9,6 @@ import mouth from './mouth.png';
 import nose from './nose.png';
 import rightEye from './rightEye.png';
 import rightHand from './rightHand.png';
-import americanDream from './american-dream.wav';
-
 import Sound from 'react-sound';
 
 const styles = {

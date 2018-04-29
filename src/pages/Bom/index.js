@@ -10,6 +10,7 @@ class Bom extends Component {
 			<div>
 				<ProjectTitle title="Recreational Retina" color="rgb(12,206,107)" />
 				<LilyWales color="rgb(255,114,0)" />
+				<BackToTop />
 			</div>
 		);
 	}
