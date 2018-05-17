@@ -4,8 +4,8 @@
 
 .aboutImg {
 	position: absolute;
-	height: 100%;
-	left: 4%;
+	height: 105%;
+	left: 7%;
 	top: 8%;
 }
 
@@ -33,3 +33,9 @@
 	color: rgb(174, 0, 255);
 	line-height: 1.5;
 }
+
+// @media only screen and (max-width: 900px) {
+// 	.currentWrapper {
+// 		display: none;
+// 	}
+// }

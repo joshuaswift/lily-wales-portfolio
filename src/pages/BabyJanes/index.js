@@ -13,7 +13,7 @@ class BabyJanes extends Component {
 			<div>
 				<BJimages />
 				<BJText />
-				<LilyWales color="rgb(255,114,0)" />
+				<LilyWales color="rgb(255,114,0)" lineHeight="normal" />
 				<HomeButton color="rgb(255,114,0)" top="879%" right="44%" />
 				<ProjectTitle
 					title="What ever happened to all the Baby Janes?"

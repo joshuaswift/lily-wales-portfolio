@@ -15,6 +15,14 @@
 	left: 7%;
 }
 
+.phorm2 {
+	opacity: 0;
+}
+
+.phorm3 {
+	opacity: 0;
+}
+
 .phorm4 {
 	position: absolute;
 	height: 80%;
@@ -42,4 +50,61 @@
 	right: 6%;
 	color: rgb(255, 85, 1);
 	top: 239%;
+}
+
+@media only screen and (max-width: 600px) {
+	.phorm1 {
+		/* resize for mobile e.g, */
+		top: 18%;
+	}
+	,
+	.phorm2-3 {
+		opacity: 0;
+	}
+	,
+	.phorm2 {
+		position: absolute;
+		top: 54%;
+		opacity: 1;
+		height: 50%;
+		left: 20%;
+	}
+	,
+	.phorm3 {
+		position: absolute;
+		top: 115%;
+		opacity: 1;
+		width: 90%;
+		left: 10%;
+	}
+	,
+	.phorm4 {
+		position: absolute;
+		top: 155%;
+		opacity: 1;
+		height: 25%;
+		left: 5%;
+	}
+	,
+	.phorm5 {
+		position: absolute;
+		top: 187%;
+		opacity: 1;
+		height: 28%;
+		left: 10%;
+	}
+	,
+	.phorm6 {
+		position: absolute;
+		top: 230%;
+		opacity: 1;
+		height: 28%;
+		left: 10%;
+	}
+	,
+	.location {
+		position: absolute;
+		left: 10%;
+		top: 215%;
+	}
 }

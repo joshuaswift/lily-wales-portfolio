@@ -12,6 +12,7 @@ import bomHomeImg from './bomHome.png';
 import nuclearosisHomeImg from './nuclearosisHome.png';
 import contactHomeImg from './contactHome.png';
 import aboutHomeImg from './aboutHome.png';
+import bikiniBottomHomeImg from './bikiniBottomHome.png';
 
 const styles = {
 	homeImg: {
@@ -49,6 +50,11 @@ class HomeImages extends Component {
 				label: 'What Ever Happened to all the Baby Janes?',
 				src: babyJanesHomeImg,
 				path: './whateverhappenedtoallthebabyjanes'
+			},
+			{
+				label: 'Bikini Bottom',
+				src: bikiniBottomHomeImg,
+				path: './bikinibottom'
 			},
 			{
 				label: 'Trumpin',
@@ -97,7 +103,10 @@ class HomeImages extends Component {
 				</div>
 				<div className="titlesTextBox">
 					{images.map((selection, index) => (
-						<NavLink to={selection.path || '/'}>
+						<NavLink
+							to={selection.path || '/'}
+							style={{ textDecoration: 'none' }}
+						>
 							<h3
 								onMouseEnter={() => this.onEnter(index)}
 								onMouseLeave={this.onLeave}
@@ -107,9 +116,6 @@ class HomeImages extends Component {
 							</h3>
 						</NavLink>
 					))}
-				</div>
-				<div className="copyrightBox">
-					<p className="copright">All content copyright C 2018</p>
 				</div>
 			</div>
 		);
