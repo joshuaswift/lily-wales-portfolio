@@ -12,6 +12,7 @@ import bomHomeImg from './bomHome.png';
 import nuclearosisHomeImg from './nuclearosisHome.png';
 import contactHomeImg from './contactHome.png';
 import aboutHomeImg from './aboutHome.png';
+import bikiniBottomHomeImg from './bikiniBottomHome.png';
 
 const styles = {
 	homeImg: {
@@ -38,27 +39,50 @@ class HomeImages extends Component {
 	render() {
 		const images = [
 			{
-				label: 'Operation Plumbob',
-				src: plumbobHomeImg,
-				className: 'plumbob'
-			},
-			{
 				label: 'Radioactive Rhonda!',
 				src: rhondaHomeImg,
-				className: 'rhonda'
+				className: 'rhondaTitle',
+				path: './radioactiverhonda'
 			},
-			{ label: 'Phorm', src: phormHomeImg, className: 'plumbob' },
-			{ label: 'Trumpin', src: trumpinHomeImg },
-			{ label: 'Las Vagueness', src: lasVaguenessHomeImg },
+			{ label: 'Recreational Retina', src: bomHomeImg, path: '.bom' },
 			{ label: 'War Machine', src: warMachineHomeImg, path: '/warmachine' },
-			{ label: 'Recreational Retina', src: bomHomeImg },
 			{
 				label: 'What Ever Happened to all the Baby Janes?',
-				src: babyJanesHomeImg
+				src: babyJanesHomeImg,
+				path: './whateverhappenedtoallthebabyjanes'
 			},
-			{ label: 'Nuclearosis', src: nuclearosisHomeImg },
-			{ label: 'Contact', src: contactHomeImg },
-			{ label: 'About', src: aboutHomeImg }
+			{
+				label: 'Bikini Bottom',
+				src: bikiniBottomHomeImg,
+				path: './bikinibottom'
+			},
+			{
+				label: 'Trumpin',
+				src: trumpinHomeImg,
+				className: 'trumpinTitle',
+				path: './trumpin'
+			},
+			{
+				label: 'Phorm',
+				src: phormHomeImg,
+				className: 'phormTitle',
+				path: './phorm'
+			},
+			{ label: 'Nuclearosis', src: nuclearosisHomeImg, path: './nuclearosis' },
+			{
+				label: 'Las Vagueness',
+				src: lasVaguenessHomeImg,
+				className: 'lasVaguenessTitle',
+				path: './lasVagueness'
+			},
+			{
+				label: 'Operation Plumbob',
+				src: plumbobHomeImg,
+				className: 'plumbob',
+				path: '/operationplumbob'
+			},
+			{ label: 'Contact', src: contactHomeImg, path: 'contact' },
+			{ label: 'About', src: aboutHomeImg, path: 'about' }
 		];
 
 		return (
@@ -79,19 +103,19 @@ class HomeImages extends Component {
 				</div>
 				<div className="titlesTextBox">
 					{images.map((selection, index) => (
-						<NavLink to={selection.path || '/'}>
-							<h2
+						<NavLink
+							to={selection.path || '/'}
+							style={{ textDecoration: 'none' }}
+						>
+							<h3
 								onMouseEnter={() => this.onEnter(index)}
 								onMouseLeave={this.onLeave}
 								className={selection.className}
 							>
 								{selection.label.toUpperCase()}
-							</h2>
+							</h3>
 						</NavLink>
 					))}
-				</div>
-				<div className="copyrightBox">
-					<h4>All content copyright C 2018</h4>
 				</div>
 			</div>
 		);

@@ -15,7 +15,8 @@ class RadioactiveRhonda extends Component {
 				<ProjectTitle title="Radioactive Rhonda!" color="rgb(255,32,32)" />
 				<LilyWales color="rgb(0,255,126)" />
 				<RText color="rgb(255,32,32)" />
-				<HomeButton color="rgb(0,255,126)" />
+				<HomeButton color="rgb(0,255,126)" top="487%" right="33%" />
+				<BackToTop color="rgb(0,255,126)" top="482%" left="61%" />
 			</div>
 		);
 	}

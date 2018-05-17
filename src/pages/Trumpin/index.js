@@ -3,7 +3,6 @@ import LilyWales from './../../Components/LilyWales';
 import HomeButton from './../../Components/HomeButton';
 import Trump from './../../Components/Trump';
 import ProjectTitle from './../../Components/ProjectTitle';
-import BackToTop from './../../Components/BackToTop';
 import './Trumpin.css';
 
 class Trumpin extends Component {

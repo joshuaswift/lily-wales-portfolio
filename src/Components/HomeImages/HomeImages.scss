@@ -8,77 +8,27 @@
 .titlesTextBox {
 	position: absolute;
 	top: 26%;
-	right: 0%;
+	right: 5.5%;
 	height: 400px;
 	width: 369px;
-	text-align: left;
+	text-align: right;
 }
 
-h2 {
-	color: rgb(0, 255, 224);
+h3 {
+	color: rgb(36, 234, 252);
+	font-weight: 400;
+}
+
+h3:hover {
+	color: rgb(255, 71, 153);
 }
 
 .rhondaTitle {
-	color: rgb(18, 241, 47);
-	top: 20%;
-}
-
-h2:hover {
-	color: red;
-}
-
-.babyJanesTitle {
-	color: rgb(230, 9, 155);
-}
-
-.bomTitle {
-	color: rgb(15, 157, 162);
-}
-
-.plumbobTitle {
-	color: rgb(0, 46, 250);
-}
-
-.lasVaguenessHomeImg {
-	color: rgb(255, 8, 8);
-}
-
-.nuclearosisTitle {
-	color: rgb(255, 139, 4);
-}
-
-.trumpinTitle {
-	color: rgb(238, 116, 249);
-}
-
-.phormTitle {
-	color: rgb(92, 4, 255);
-}
-
-.contactTitle {
-	color: rgb(1, 255, 194);
+	text-decoration: none;
 }
 
 .copyrightBox {
 	position: absolute;
 	top: 2%;
-	color: rgb(117, 116, 128);
-}
-
-@keyframes invisible {
-	opacity: 0;
-}
-
-@keyframes visible {
-	opacity: 1;
-	transition: 0.5s ease;
-}
-
-.title {
-	color: rgb(0, 255, 224);
-}
-
-.plumbob {
-	position: absolute;
-	left: 15%;
+	color: rgb(255, 255, 255);
 }

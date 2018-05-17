@@ -13,6 +13,8 @@ import Phorm from '../../pages/Phorm';
 import OperationPlumbob from '../../pages/OperationPlumbob';
 import Nuclearosis from '../../pages/Nuclearosis';
 import WarMachine from '../../pages/WarMachine';
+import About from '../../pages/About';
+import BikiniBottom from '../../pages/bikiniBottom';
 
 //creating routes for site
 const App = () => (
@@ -23,12 +25,14 @@ const App = () => (
 			<Route path="/contact" component={Contact} />
 			<Route path="/trumpin" component={Trumpin} />
 			<Route path="/whateverhappenedtoallthebabyjanes" component={BabyJanes} />
-			<Route path="/bom" component={Bom} />
+			<Route path="/bikinibottom" component={BikiniBottom} />
+			<Route path="/recreationalretina" component={Bom} />
 			<Route path="/lasvagueness" component={LasVagueness} />
 			<Route path="/phorm" component={Phorm} />
 			<Route path="/operationplumbob" component={OperationPlumbob} />
-			<Route path="/Nuclearosis" component={Nuclearosis} />
+			<Route path="/nuclearosis" component={Nuclearosis} />
 			<Route path="/warmachine" component={WarMachine} />
+			<Route path="/about" component={About} />
 		</Switch>
 	</main>
 );

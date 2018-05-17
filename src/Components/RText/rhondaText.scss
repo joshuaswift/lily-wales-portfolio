@@ -14,3 +14,15 @@
 	right: 5%;
 	top: 235%;
 }
+
+@media only screen and (max-width: 600px) {
+	.RTextWrapper {
+		right: 7%;
+		top: 74%;
+	}
+	,
+	.photo-credit {
+		left: 10%;
+		top: 217%;
+	}
+}

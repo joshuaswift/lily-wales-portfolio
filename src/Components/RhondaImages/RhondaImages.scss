@@ -38,3 +38,60 @@
 	height: 65%;
 	padding-bottom: 4%;
 }
+
+.rhonda2 {
+	opacity: 0;
+}
+
+.rhonda3 {
+	opacity: 0;
+}
+
+@media only screen and (max-width: 600px) {
+	.rhonda1 {
+		height: 60%;
+		top: 10%;
+		right: 7%;
+	}
+	,
+	.rhonda2-3 {
+		display: none;
+	}
+	,
+	.rhonda2 {
+		position: absolute;
+		top: 130%;
+		opacity: 1;
+		height: 50%;
+		right: 4%;
+	}
+	,
+	.rhonda3 {
+		position: absolute;
+		top: 188%;
+		opacity: 1;
+		width: 85%;
+		left: 5%;
+	}
+	,
+	.rhonda4 {
+		position: absolute;
+		top: 240%;
+		height: 31%;
+		left: 8%;
+	}
+	,
+	.rhonda5 {
+		position: absolute;
+		top: 282%;
+		height: 25%;
+		left: 10%;
+	}
+	,
+	.rhonda6 {
+		position: absolute;
+		top: 315%;
+		height: 25%;
+		left: 16%;
+	}
+}

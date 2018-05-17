@@ -5,7 +5,7 @@ import ProjectTitle from './../../Components/ProjectTitle';
 import OPimages from './../../Components/OPimages';
 import OPText from './../../Components/OPText';
 import HomeButton from './../../Components/HomeButton';
-// import ScrollToTop from './../../Components/ScrollToTop';
+import BackToTop from './../../Components/BackToTop';
 
 class OperationPlumbob extends Component {
 	render() {
@@ -15,8 +15,8 @@ class OperationPlumbob extends Component {
 				<OPText />
 				<LilyWales color="rgb(255,32,32)" />
 				<HomeButton color="rgb(255,32,32)" top="511%" right="44%" />
-				{/* <ScrollToTop color="rgb(255,32,32)" top="500%" right="44%" /> */}
-				<ProjectTitle title="Operation Plumbob" />
+				<ProjectTitle title="Operation Plumbob" color="rgb(88, 246, 241)" />
+				<BackToTop color="rgb(255,32,32)" top="507%" right="44%" />
 			</div>
 		);
 	}

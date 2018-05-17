@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import LilyWales from './../../Components/LilyWales';
 import ProjectTitle from './../../Components/ProjectTitle';
-import BackToTop from './../../Components/BackToTop';
+import ContactContent from './../../Components/ContactContent';
 import './Contact.css';
 
 class Contact extends Component {
@@ -9,8 +9,9 @@ class Contact extends Component {
 		return (
 			<div>
 				<div>
-					<ProjectTitle title="Contact" />
-					<LilyWales />
+					<ContactContent />
+					<ProjectTitle title="Contact" color="rgb(0,179,255)" />
+					<LilyWales color="rgb(255,89,94)" />
 				</div>
 			</div>
 		);

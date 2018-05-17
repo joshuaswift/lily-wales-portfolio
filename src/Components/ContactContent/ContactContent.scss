@@ -1,0 +1,41 @@
+.contactImgWrapper {
+	position: relative;
+	height: 100vh;
+	left: 0%;
+	overflow: hidden;
+}
+
+.contactWrapper {
+	position: absolute;
+	right: 5.5%;
+	top: 40%;
+	height: 350px;
+	width: 350px;
+	text-align: right;
+	color: rgb(0, 179, 255);
+}
+
+.email {
+	position: absolute;
+	display: flex;
+	color: rgb(0, 179, 255);
+}
+
+.twitter {
+	height: 20px;
+}
+
+.insta {
+	height: 20px;
+}
+
+.contacts {
+	position: absolute;
+	display: flex;
+
+	width: 360px;
+	background-color: red;
+	height: 60px;
+	top: 75%;
+	right: 27.5%;
+}
