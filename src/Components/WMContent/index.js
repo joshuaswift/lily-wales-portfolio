@@ -43,6 +43,15 @@ class WMContent extends Component {
 						exhibited at The<br />
 						Photographers<br />Wall & Argentea<br />Gallery.
 					</p>
+					<p className="wmDescriptionMobile">
+						In this series the notion<br />of war is explored<br /> through the
+						juxtaposition<br />
+						of predatory instinct and<br /> the need for survival.<br />Selected
+						artworks
+						<br />
+						exhibited at The<br />
+						PhotographersWall &<br /> Argentea Gallery.
+					</p>
 				</div>
 			</div>
 		);

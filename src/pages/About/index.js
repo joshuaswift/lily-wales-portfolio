@@ -13,7 +13,7 @@ class BabyJanes extends Component {
 				<AboutContent />
 				<LilyWales color="rgb(248,39,127)" />
 				<MediaQuery minWidth={600}>
-					<HomeButton color="rgb(248,39,127)" top="201%" right="13.5%" />
+					<HomeButton color="rgb(248,39,127)" top="201%" right="5.5%" />
 				</MediaQuery>
 				<MediaQuery maxWidth={599}>
 					<HomeButton color="rgb(248,39,127)" top="156%" left="11%" />

@@ -15,13 +15,12 @@ const ProjectTitle = props => {
 		},
 		mobiletitle: {
 			position: 'absolute',
-			width: '70%',
 			right: '5.5%',
 			color: props.color || 'rgb(245, 27, 236)',
-			top: '37px',
+			top: props.top || '36px',
 			fontSize: '0.95em',
 			textAlign: 'right',
-			lineHeight: props.lineHeight || '0'
+			lineHeight: props.lineHeight || 0
 		}
 	};
 	return (
