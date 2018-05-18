@@ -6,11 +6,7 @@ class AboutContent extends Component {
 	render() {
 		return (
 			<div className="wrapper">
-				<img
-					className="aboutImg"
-					src={aboutImage}
-					alt="Illustrated Brum Hack"
-				/>
+				<img className="aboutImg" src={aboutImage} alt="Bikini Bottom" />
 				<div className="aboutWrapper">
 					<p>
 						Lily Wales is a UK<br /> based artist working<br /> with handmade<br />
@@ -34,7 +30,7 @@ class AboutContent extends Component {
 						<br /> -Pending
 					</p>
 				</div> */}
-				<div className="pastWrapper">
+				<div className="pastWrapperLarge">
 					<p>
 						PAST SHOWS<br />
 						<br />
@@ -48,6 +44,23 @@ class AboutContent extends Component {
 						– Chaos Computer Club at Birmingham Open Media 2015<br />
 						– Photographers Wall at Library of Birmingham 2014<br />
 						– Narrative Structures at Stryx gallery 2013<br />
+						– Much Beta at mac birmingham 2013<br />
+					</p>
+				</div>
+				<div className="pastWrapperSmall">
+					<p>
+						PAST SHOWS<br />
+						<br />
+						– Phorm at Salford Circus, 2018<br />
+						– New Art West Midlands at <br /> &nbsp; Airspace Gallery 2018<br />
+						– Yorks ikon 2017<br />
+						– Reclaim Photography Festival 2017<br />
+						– Fertile Ground at Argentea<br /> &nbsp; Gallery 2017<br />
+						– Future Late at Tate Modern 2016<br />
+						– 112 Space 2015<br />
+						– Chaos Computer Club at <br /> &nbsp; Birmingham Open Media 2015<br />
+						– Photographers Wall at Library of <br /> &nbsp; Birmingham 2014<br />
+						– Narrative Structures at <br /> &nbsp; Stryx gallery 2013<br />
 						– Much Beta at mac birmingham 2013<br />
 					</p>
 				</div>

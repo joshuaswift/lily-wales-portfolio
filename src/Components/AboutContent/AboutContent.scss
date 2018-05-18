@@ -26,16 +26,42 @@
 	color: rgb(255, 126, 0);
 }
 
-.pastWrapper {
+.pastWrapperLarge {
 	position: absolute;
 	left: 8%;
 	top: 145%;
 	color: rgb(174, 0, 255);
 	line-height: 1.5;
+	opacity: 1;
+}
+.pastWrapperSmall {
+	position: absolute;
+	color: rgb(174, 0, 255);
+	opacity: 0;
 }
 
-// @media only screen and (max-width: 900px) {
-// 	.currentWrapper {
-// 		display: none;
-// 	}
-// }
+@media only screen and (max-width: 600px) {
+	.aboutImg {
+		opacity: 0.9;
+		left: 1%;
+		top: 16%;
+		height: 80%;
+	}
+	,
+	.aboutWrapper {
+		top: 15%;
+	}
+	,
+	.pastWrapperLarge {
+		top: 1%;
+		opacity: 0;
+	}
+	,
+	.pastWrapperSmall {
+		position: absolute;
+		left: 8%;
+		top: 93%;
+		line-height: 1.5;
+		opacity: 1;
+	}
+}

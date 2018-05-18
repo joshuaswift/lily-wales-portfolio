@@ -36,3 +36,36 @@
 	right: 5%;
 	top: 445%;
 }
+
+@media only screen and (max-width: 600px) {
+	.mrManhatten {
+		height: 40%;
+		top: 10%;
+		right: 7%;
+	}
+	,
+	.mrPlumbob {
+		top: 130%;
+		opacity: 1;
+		height: 50%;
+		right: 4%;
+	}
+	,
+	.fatMan {
+		top: 130%;
+		height: 50%;
+		right: 4%;
+	}
+	,
+	.annie {
+		top: 188%;
+		height: 85%;
+		left: 5%;
+	}
+	,
+	.gilda {
+		top: 240%;
+		height: 31%;
+		left: 8%;
+	}
+}
