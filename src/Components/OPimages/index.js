@@ -12,7 +12,7 @@ class OPimages extends Component {
 			<div className="wrapper">
 				<img className="mrManhatten" src={op1} alt="Mr Manhatten" />
 				<img className="mrPlumbob" src={op2} alt="Mr Plumbob" />
-				<img className="fatMan" src={op3} alt="Fat Man & Thin Man" />
+				{/* <img className="fatMan" src={op3} alt="Fat Man & Thin Man" /> */}
 				<img className="annie" src={op4} alt="Annie & Grable" />
 				<img className="gilda" src={op5} alt="Gilda" />
 			</div>

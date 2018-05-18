@@ -13,7 +13,8 @@ const HomeButton = props => {
 			right: props.right,
 			bottom: props.bottom,
 			textDecoration: 'none',
-			fontFamily: 'Archivo Black'
+			fontFamily: 'Archivo Black',
+			paddingBottom: props.paddingBottom
 		},
 		homemobile: {
 			position: 'absolute',
@@ -24,7 +25,8 @@ const HomeButton = props => {
 			right: props.right,
 			bottom: props.bottom,
 			textDecoration: 'none',
-			fontFamily: 'Archivo Black'
+			fontFamily: 'Archivo Black',
+			paddingBottom: props.paddingBottom
 		}
 	};
 
