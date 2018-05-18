@@ -5,10 +5,14 @@
 	overflow: hidden;
 }
 
+.contactImg {
+	position: absolute;
+	height: 100%;
+}
 .contactWrapper {
 	position: absolute;
 	right: 5.5%;
-	top: 40%;
+	top: 35%;
 	height: 350px;
 	width: 350px;
 	text-align: right;
@@ -22,20 +26,21 @@
 }
 
 .twitter {
-	height: 20px;
+	height: 22px;
+	padding-top: 24px;
+	padding-left: 15px;
 }
 
 .insta {
-	height: 20px;
+	height: 22px;
+	padding-top: 24px;
+	padding-left: 15px;
 }
 
 .contacts {
 	position: absolute;
-	display: flex;
-
 	width: 360px;
-	background-color: red;
 	height: 60px;
 	top: 75%;
-	right: 27.5%;
+	right: 5.5%;
 }

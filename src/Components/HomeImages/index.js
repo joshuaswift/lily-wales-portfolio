@@ -10,7 +10,7 @@ import warMachineHomeImg from './warMachineHome.png';
 import lasVaguenessHomeImg from './lasVaguenessHome.png';
 import bomHomeImg from './bomHome.png';
 import nuclearosisHomeImg from './nuclearosisHome.png';
-import contactHomeImg from './contactHome.png';
+// import contactHomeImg from './contactHome.png';
 import aboutHomeImg from './aboutHome.png';
 import bikiniBottomHomeImg from './bikiniBottomHome.png';
 
@@ -81,7 +81,7 @@ class HomeImages extends Component {
 				className: 'plumbob',
 				path: '/operationplumbob'
 			},
-			{ label: 'Contact', src: contactHomeImg, path: 'contact' },
+			{ label: 'Contact', src: nuclearosisHomeImg, path: 'contact' },
 			{ label: 'About', src: aboutHomeImg, path: 'about' }
 		];
 
