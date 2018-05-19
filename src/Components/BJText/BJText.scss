@@ -11,3 +11,10 @@
 span {
 	color: rgb(214, 199, 1);
 }
+
+@media only screen and (max-width: 600px) {
+	.BJTextWrapper {
+		right: 7%;
+		top: 80%;
+	}
+}
