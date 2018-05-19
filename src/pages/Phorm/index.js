@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MediaQuery from 'react-responsive';
 import LilyWales from './../../Components/LilyWales';
 import ProjectTitle from './../../Components/ProjectTitle';
 import BackToTop from './../../Components/BackToTop';
@@ -13,8 +14,23 @@ class Phorm extends Component {
 				<PhormContent />
 				<ProjectTitle title="Phorm" color="rgb(255,85,1)" />
 				<LilyWales color="rgb(5,176,255)" />
-				<BackToTop color="rgb(5,176,255)" top="512%" right="8%" />
-				<HomeButton color="rgb(5,176,255)" top="517%" right="8%" />
+				<MediaQuery minWidth={600}>
+					<HomeButton color="rgb(5,176,255)" top="517%" right="8%" />
+				</MediaQuery>
+				<MediaQuery maxWidth={599}>
+					<HomeButton
+						color="rgb(5,176,255)"
+						top="292%"
+						right="9%"
+						paddingBottom="15px"
+					/>
+				</MediaQuery>
+				<MediaQuery minWidth={600}>
+					<BackToTop color="rgb(5,176,255)" top="512%" right="8%" />{' '}
+				</MediaQuery>
+				<MediaQuery maxWidth={599}>
+					<BackToTop color="rgb(5,176,255)" top="289%" right="9%" />{' '}
+				</MediaQuery>
 			</div>
 		);
 	}
