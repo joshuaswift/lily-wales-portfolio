@@ -17,7 +17,7 @@ class ContactContent extends Component {
 						glow.
 					</p>
 				</div>
-				<div class="contacts">
+				<div className="contacts">
 					<div className="email">
 						<p>lily.wales@outlook.com</p>
 						<img

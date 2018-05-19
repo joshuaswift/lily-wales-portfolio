@@ -5,10 +5,10 @@ import rhondaHomeImg from './rhondaHome.png';
 import plumbobHomeImg from './operationPlumbobHome.png';
 import phormHomeImg from './phormHome.png';
 import trumpinHomeImg from './trumpinHome.png';
-import babyJanesHomeImg from './babyJaneHome.png';
+import babyJanesHomeImg from './babyJanesHome.jpg';
 import warMachineHomeImg from './warMachineHome.png';
 import lasVaguenessHomeImg from './lasVaguenessHome.png';
-import bomHomeImg from './bomHome.png';
+import bomHomeImg from './bomHome.jpg';
 import nuclearosisHomeImg from './nuclearosisHome.png';
 // import contactHomeImg from './contactHome.png';
 import aboutHomeImg from './aboutHome.png';
@@ -44,7 +44,11 @@ class HomeImages extends Component {
 				className: 'rhondaTitle',
 				path: './radioactiverhonda'
 			},
-			{ label: 'Recreational Retina', src: bomHomeImg, path: '.bom' },
+			{
+				label: 'Recreational Retina',
+				src: bomHomeImg,
+				path: '/recreationalretina'
+			},
 			{ label: 'War Machine', src: warMachineHomeImg, path: '/warmachine' },
 			{
 				label: 'What Ever Happened to all the Baby Janes?',
