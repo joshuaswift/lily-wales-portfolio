@@ -44,3 +44,27 @@
 	top: 75%;
 	right: 5.5%;
 }
+
+@media only screen and (max-width: 600px) {
+	.contactImg {
+		right: 45%;
+	}
+	,
+	.contacts {
+		right: 5.5%;
+		top: 55%;
+		width: 210px;
+	}
+	,
+	.insta {
+		height: 12px;
+		padding-top: 14px;
+		padding-left: 10px;
+	}
+}
+,
+.twitter {
+	height: 12px;
+	padding-top: 14px;
+	padding-left: 10px;
+}

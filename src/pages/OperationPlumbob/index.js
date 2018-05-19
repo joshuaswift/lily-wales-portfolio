@@ -31,7 +31,12 @@ class OperationPlumbob extends Component {
 					<HomeButton color="rgb(255,32,32)" top="511%" right="44%" />
 				</MediaQuery>
 				<MediaQuery maxWidth={599}>
-					<HomeButton color="rgb(255,32,32)" top="511%" right="44%" />
+					<HomeButton
+						color="rgb(255,32,32)"
+						top="511%"
+						right="44%"
+						paddingBottom="22px"
+					/>
 				</MediaQuery>
 				<MediaQuery minWidth={600}>
 					<BackToTop color="rgb(255,32,32)" top="507%" right="44%" />
