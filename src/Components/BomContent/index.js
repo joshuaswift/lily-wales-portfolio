@@ -20,23 +20,37 @@ import bom16 from './16.jpg';
 class BomContent extends Component {
 	render() {
 		return (
-			<div className="container">
-				<img className="bom1" src={bom1} alt="Recreational Retina" />
-				<img className="bom2" src={bom2} alt="Recreational Retina" />
-				<img className="bom3" src={bom3} alt="Recreational Retina" />
-				<img className="bom4" src={bom4} alt="Recreational Retina" />
-				<img className="bom5" src={bom5} alt="Recreational Retina" />
-				<img className="bom6" src={bom6} alt="Recreational Retina" />
-				<img className="bom7" src={bom7} alt="Recreational Retina" />
-				<img className="bom8" src={bom8} alt="Recreational Retina" />
-				<img className="bom9" src={bom9} alt="Recreational Retina" />
-				<img className="bom10" src={bom10} alt="Recreational Retina" />
-				<img className="bom11" src={bom11} alt="Recreational Retina" />
-				<img className="bom12" src={bom12} alt="Recreational Retina" />
-				<img className="bom13" src={bom13} alt="Recreational Retina" />
-				<img className="bom14" src={bom14} alt="Recreational Retina" />
-				<img className="bom15" src={bom15} alt="Recreational Retina" />
-				<img className="bom16" src={bom16} alt="Recreational Retina" />
+			<div>
+				<div className="grid1">
+					<img className="bom1" src={bom1} alt="Recreational Retina" />
+					<img className="bom2" src={bom2} alt="Recreational Retina" />
+					<img className="bom3" src={bom3} alt="Recreational Retina" />
+					<img className="bom4" src={bom4} alt="Recreational Retina" />
+				</div>
+				<div className="grid2">
+					<img className="bom5" src={bom5} alt="Recreational Retina" />
+					<img className="bom6" src={bom6} alt="Recreational Retina" />
+					<img className="bom7" src={bom7} alt="Recreational Retina" />
+					<img className="bom8" src={bom8} alt="Recreational Retina" />
+				</div>
+				<div className="grid3">
+					<img className="bom9" src={bom9} alt="Recreational Retina" />
+					<img className="bom10" src={bom10} alt="Recreational Retina" />
+					<img className="bom11" src={bom11} alt="Recreational Retina" />
+					<img className="bom12" src={bom12} alt="Recreational Retina" />
+				</div>
+				<div className="grid4">
+					<img className="bom13" src={bom13} alt="Recreational Retina" />
+					<img className="bom14" src={bom14} alt="Recreational Retina" />
+					<img className="bom15" src={bom15} alt="Recreational Retina" />
+					<img className="bom16" src={bom16} alt="Recreational Retina" />
+				</div>
+				<div className="bomText">
+					<p>
+						Shown in<br />collaboration<br />with Chaos<br />Computer Club<br />{' '}
+						& Leon Trimble<br /> at Birmingham<br />Open Media.
+					</p>
+				</div>
 			</div>
 		);
 	}

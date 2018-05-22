@@ -12,15 +12,26 @@ class BabyJanes extends Component {
 			<div>
 				<AboutContent />
 				<LilyWales color="rgb(248,39,127)" />
-				<MediaQuery minWidth={600}>
+				<MediaQuery minWidth={900}>
 					<HomeButton color="rgb(248,39,127)" top="201%" right="5.5%" />
+				</MediaQuery>
+				<MediaQuery minWidth={600} maxWidth={899}>
+					<HomeButton
+						top="227%"
+						color="rgb(248,39,127)"
+						left="10%"
+						paddingBottom="20px"
+					/>{' '}
 				</MediaQuery>
 				<MediaQuery maxWidth={599}>
 					<HomeButton color="rgb(248,39,127)" top="156%" left="11%" />
 				</MediaQuery>
 				<ProjectTitle title="About" color="rgb(0,204,255)" />
-				<MediaQuery minWidth={600}>
+				<MediaQuery minWidth={900}>
 					<BackToTop top="197%" color="rgb(248,39,127)" right="5.5%" />{' '}
+				</MediaQuery>
+				<MediaQuery minWidth={600} maxWidth={899}>
+					<BackToTop top="222%" color="rgb(248,39,127)" left="10%" />{' '}
 				</MediaQuery>
 				<MediaQuery maxWidth={599}>
 					<BackToTop top="153%" color="rgb(248,39,127)" left="11%" />

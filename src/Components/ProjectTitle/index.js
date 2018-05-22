@@ -5,7 +5,8 @@ const ProjectTitle = props => {
 	const styles = {
 		title: {
 			position: 'absolute',
-			width: '70%',
+			width: props.width || '70%',
+			height: props.height,
 			right: '5.5%',
 			color: props.color || 'rgb(245, 27, 236)',
 			top: '135px',
@@ -21,12 +22,26 @@ const ProjectTitle = props => {
 			fontSize: '0.95em',
 			textAlign: 'right',
 			lineHeight: props.lineHeight || 0
+		},
+		ipadtitle: {
+			position: 'absolute',
+			right: '5.5%',
+			color: props.color || 'rgb(245, 27, 236)',
+			top: props.top || '135px',
+			fontSize: '1.9em',
+			textAlign: 'right',
+			lineHeight: props.lineHeight || 0
 		}
 	};
 	return (
 		<div>
-			<MediaQuery minWidth={600}>
+			<MediaQuery minWidth={900}>
 				<div style={styles.title}>
+					<h1>{props.title.toUpperCase()}</h1>
+				</div>
+			</MediaQuery>
+			<MediaQuery minWidth={600} maxWidth={899}>
+				<div style={styles.ipadtitle}>
 					<h1>{props.title.toUpperCase()}</h1>
 				</div>
 			</MediaQuery>
