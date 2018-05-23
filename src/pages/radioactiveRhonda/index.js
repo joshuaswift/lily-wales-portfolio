@@ -13,8 +13,20 @@ class RadioactiveRhonda extends Component {
 		return (
 			<div>
 				<RhondaImages />
-				<MediaQuery minWidth={600}>
-					<ProjectTitle title="Radioactive Rhonda!" color="rgb(255,32,32)" />{' '}
+				<MediaQuery minWidth={901}>
+					<ProjectTitle
+						title="Radioactive Rhonda!"
+						color="rgb(255,32,32)"
+						width="92%"
+					/>{' '}
+				</MediaQuery>
+				<MediaQuery maxWidth={900} minWidth={600}>
+					<ProjectTitle
+						title="Radioactive Rhonda!"
+						color="rgb(255,32,32)"
+						lineHeight="0.7"
+						top="115px"
+					/>{' '}
 				</MediaQuery>
 				<MediaQuery maxWidth={599}>
 					<ProjectTitle

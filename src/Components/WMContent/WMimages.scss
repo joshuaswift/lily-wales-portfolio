@@ -1,6 +1,7 @@
-// .WMimagesLarge {
-// 	width: 100vw;
-// }
+.WMimagesLarge {
+	width: 100%;
+}
+
 .wm1 {
 	position: absolute;
 	padding-left: 7%;
@@ -46,41 +47,56 @@
 .wm2 {
 	position: absolute;
 	opacity: 0;
+	height: 0;
+	left: 4%;
 }
 
 .wm3 {
 	position: absolute;
 	opacity: 0;
+	height: 0;
+	left: 4%;
 }
 
 .wm4 {
 	position: absolute;
 	opacity: 0;
+	height: 0;
+	left: 4%;
 }
 
 .wm5 {
 	position: absolute;
 	opacity: 0;
+	height: 0;
+	left: 4%;
 }
 
 .wm6 {
 	position: absolute;
 	opacity: 0;
+	height: 0;
+	left: 4%;
 }
 
 .wm7 {
 	position: absolute;
 	opacity: 0;
+	height: 0;
+	left: 4%;
 }
 
 .wm8 {
 	position: absolute;
 	opacity: 0;
+	height: 0;
 }
 
 .wm9 {
 	position: absolute;
 	opacity: 0;
+	height: 0;
+	left: 4%;
 }
 
 .wmWrapper {
@@ -98,10 +114,12 @@
 	text-align: right;
 	color: rgb(245, 27, 236);
 	opacity: 0;
+	left: 4%;
 }
 
 .wm1mob {
 	opacity: 0;
+	left: 4%;
 }
 @media only screen and (max-width: 600px) {
 	.wm1 {
@@ -119,6 +137,7 @@
 		text-align: right;
 		color: rgb(245, 27, 236);
 		opacity: 0;
+		left: 4%;
 	}
 	,
 	.wmDescriptionMobile {
@@ -129,6 +148,7 @@
 		opacity: 0;
 		top: 4%;
 		height: 4%;
+		left: 4%;
 	}
 	,
 	.wm2 {
@@ -191,7 +211,7 @@
 		opacity: 0;
 		left: 4%;
 		top: 4%;
-		height: 4%;
+		height: 0;
 	}
 	,
 	.wm8 {
@@ -212,5 +232,55 @@
 		right: 5.5%;
 		top: 570%;
 		height: 64%;
+	}
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+	.WMimagesLarge {
+		width: 100vw;
+	}
+	.wm1 {
+		right: 9%;
+		top: 77px;
+		height: 90%;
+	}
+
+	,
+	.wm2-3 {
+		left: 11%;
+		top: 146%;
+		height: 60%;
+	}
+
+	,
+	.wm4-5 {
+		left: 1%;
+		top: 219%;
+		height: 50%;
+	}
+
+	,
+	.wm6-7 {
+		left: 1%;
+		top: 280%;
+		height: 70%;
+	}
+
+	,
+	.wm8-9 {
+		left: 9%;
+		top: 363%;
+		height: 55%;
+	}
+
+	,
+	.wm10 {
+		right: 5.5%;
+		top: 432%;
+		height: 90%;
+	}
+	,
+	.wmWrapper {
+		top: 105%;
 	}
 }
