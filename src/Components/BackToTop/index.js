@@ -16,7 +16,7 @@ const BackToTop = props => {
 		},
 		backToTopIpad: {
 			position: 'absolute',
-			fontSize: '1.5rem',
+			fontSize: '1.1rem',
 			color: props.color || 'rgb(0, 41, 255)',
 			top: props.top,
 			left: props.left,
@@ -50,7 +50,7 @@ const BackToTop = props => {
 					BACK TO TOP
 				</div>
 			</MediaQuery>
-			<MediaQuery minWidth={600} maxWidth={899}>
+			<MediaQuery minWidth={601} maxWidth={899}>
 				<div
 					onClick={() => {
 						window && window.scrollTo(0, 0);
@@ -60,7 +60,7 @@ const BackToTop = props => {
 					BACK TO TOP
 				</div>
 			</MediaQuery>
-			<MediaQuery maxWidth={599}>
+			<MediaQuery maxWidth={600}>
 				<div
 					onClick={() => {
 						window && window.scrollTo(0, 0);

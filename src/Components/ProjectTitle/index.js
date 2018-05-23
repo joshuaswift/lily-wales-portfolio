@@ -10,16 +10,17 @@ const ProjectTitle = props => {
 			right: '5.5%',
 			color: props.color || 'rgb(245, 27, 236)',
 			top: '135px',
-			fontSize: '1.9em',
+			fontSize: '1.9rem',
 			textAlign: 'right',
 			lineHeight: props.lineHeight || '0'
 		},
+
 		mobiletitle: {
 			position: 'absolute',
 			right: '5.5%',
 			color: props.color || 'rgb(245, 27, 236)',
 			top: props.top || '36px',
-			fontSize: '0.95em',
+			fontSize: '0.95rem',
 			textAlign: 'right',
 			lineHeight: props.lineHeight || 0
 		},
@@ -27,8 +28,8 @@ const ProjectTitle = props => {
 			position: 'absolute',
 			right: '5.5%',
 			color: props.color || 'rgb(245, 27, 236)',
-			top: props.top || '135px',
-			fontSize: '1.9em',
+			top: props.top || '64px',
+			fontSize: '1.3rem',
 			textAlign: 'right',
 			lineHeight: props.lineHeight || 0
 		}
