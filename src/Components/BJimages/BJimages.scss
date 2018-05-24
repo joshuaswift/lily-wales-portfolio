@@ -26,7 +26,7 @@
 .bj8-9 {
 	position: absolute;
 	height: 83%;
-	left: 4%;
+	padding-left: 4%;
 	top: 360%;
 }
 
@@ -40,14 +40,14 @@
 .bj13-14 {
 	position: absolute;
 	width: 70%;
-	left: 2%;
+	padding-left: 2%;
 	top: 585%;
 }
 
 .bj14-16 {
 	position: absolute;
 	width: 85%;
-	left: 6%;
+	padding-left: 6%;
 	top: 705%;
 }
 
@@ -94,5 +94,59 @@
 	,
 	.bj17-18 {
 		top: 381%;
+	}
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+	.bj1 {
+		height: 90%;
+		right: 9%;
+		top: 26px;
+	}
+
+	.bj2-4 {
+		height: 50%;
+		right: 9%;
+		top: 132%;
+	}
+
+	.bj5-7 {
+		height: 50%;
+		left: 5%;
+		top: 193%;
+	}
+
+	.bj8-9 {
+		height: 50%;
+		right: 5.5%;
+		top: 253%;
+	}
+
+	.bj10-12 {
+		height: 40%;
+		width: auto;
+		left: 5%;
+		top: 313%;
+	}
+
+	.bj13-14 {
+		height: 40%;
+		width: auto;
+		left: 5%;
+		top: 365%;
+	}
+
+	.bj14-16 {
+		height: 30%;
+		width: auto;
+		right: 5%;
+		top: 415%;
+	}
+
+	.bj17-18 {
+		height: 40%;
+		width: auto;
+		left: 5%;
+		top: 455%;
 	}
 }

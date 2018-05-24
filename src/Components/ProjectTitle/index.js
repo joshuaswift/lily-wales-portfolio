@@ -9,7 +9,7 @@ const ProjectTitle = props => {
 			height: props.height,
 			right: '5.5%',
 			color: props.color || 'rgb(245, 27, 236)',
-			top: '135px',
+			top: props.top || '135px',
 			fontSize: '1.9rem',
 			textAlign: 'right',
 			lineHeight: props.lineHeight || '0'

@@ -14,14 +14,23 @@ class BabyJanes extends Component {
 			<div>
 				<BJimages />
 				<BJText />
-
-				<MediaQuery minWidth={600}>
+				<MediaQuery minWidth={900}>
 					<ProjectTitle
 						title="What ever happened to all the Baby Janes?"
 						color="rgb(108, 0, 255)"
+						lineHeight="0.7"
+						top="114px"
+					/>
+				</MediaQuery>
+				<MediaQuery minWidth={601} maxWidth={899}>
+					<ProjectTitle
+						title="What ever happened to all the Baby Janes?"
+						color="rgb(108, 0, 255)"
+						lineHeight="0.7"
+						top="51px"
 					/>{' '}
 				</MediaQuery>
-				<MediaQuery maxWidth={599}>
+				<MediaQuery maxWidth={600}>
 					<ProjectTitle
 						title="What ever happened to all the Baby Janes?"
 						color="rgb(108, 0, 255)"
@@ -31,10 +40,18 @@ class BabyJanes extends Component {
 				</MediaQuery>
 				<LilyWales color="rgb(255,114,0)" lineHeight="normal" />
 
-				<MediaQuery minWidth={600}>
-					<HomeButton color="rgb(255,114,0)" top="879%" right="44%" />{' '}
+				<MediaQuery minWidth={900}>
+					<HomeButton color="rgb(255,114,0)" top="879%" right="9%" />{' '}
 				</MediaQuery>
-				<MediaQuery maxWidth={599}>
+				<MediaQuery maxWidth={899} minWidth={601}>
+					<HomeButton
+						color="rgb(255,114,0)"
+						top="492%"
+						right="5.5%"
+						paddingBottom="28px"
+					/>
+				</MediaQuery>
+				<MediaQuery maxWidth={600}>
 					<HomeButton
 						color="rgb(255,114,0)"
 						top="409%"
@@ -42,10 +59,13 @@ class BabyJanes extends Component {
 						paddingBottom="15px"
 					/>
 				</MediaQuery>
-				<MediaQuery minWidth={600}>
-					<BackToTop top="874%" color="rgb(255,114,0)" right="35%" />{' '}
+				<MediaQuery minWidth={900}>
+					<BackToTop top="874%" color="rgb(255,114,0)" right="9%" />{' '}
 				</MediaQuery>
-				<MediaQuery maxWidth={599}>
+				<MediaQuery minWidth={601} maxWidth={899}>
+					<BackToTop top="489%" color="rgb(255,114,0)" right="5.5%" />{' '}
+				</MediaQuery>
+				<MediaQuery maxWidth={600}>
 					<BackToTop top="406%" color="rgb(255,114,0)" right="9%" />{' '}
 				</MediaQuery>
 			</div>
