@@ -15,22 +15,22 @@ class WarMachine extends Component {
 				<ProjectTitle title="War Machine" color="rgb(245, 27, 236)" />
 				<LilyWales color={'rgb(0, 41, 255)'} />
 				<MediaQuery minWidth={900}>
-					<HomeButton top={'647%'} right={'5.5%'} paddingBottom={'12px'} />{' '}
+					<HomeButton top={'649%'} right={'5.5%'} paddingBottom={'17px'} />{' '}
 				</MediaQuery>
 				<MediaQuery maxWidth={899} minWidth={601}>
-					<HomeButton top={'530%'} right={'5.5%'} paddingBottom={'20px'} />{' '}
+					<HomeButton top={'440%'} right={'9%'} paddingBottom={'28px'} />{' '}
 				</MediaQuery>
 				<MediaQuery maxWidth={600}>
-					<HomeButton top={'639%'} right={'5.5%'} paddingBottom={'8px'} />{' '}
+					<HomeButton top={'664%'} right={'5.5%'} paddingBottom={'27px'} />{' '}
 				</MediaQuery>
 				<MediaQuery minWidth={900}>
-					<BackToTop top={'643%'} right={'5.5%'} />{' '}
+					<BackToTop top={'645%'} right={'5.5%'} />{' '}
 				</MediaQuery>
 				<MediaQuery minWidth={601} maxWidth={899}>
-					<BackToTop top={'526%'} right={'5.5%'} />{' '}
+					<BackToTop top={'438%'} right={'9%'} />{' '}
 				</MediaQuery>
 				<MediaQuery maxWidth={600}>
-					<BackToTop top={'636%'} right={'5.5%'} />{' '}
+					<BackToTop top={'661%'} right={'5.5%'} />{' '}
 				</MediaQuery>
 			</div>
 		);
