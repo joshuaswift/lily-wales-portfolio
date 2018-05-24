@@ -17,10 +17,12 @@
 
 .phorm2 {
 	opacity: 0;
+	height: 0;
 }
 
 .phorm3 {
 	opacity: 0;
+	height: 0;
 }
 
 .phorm4 {
@@ -108,5 +110,41 @@
 		width: 100px;
 		left: 9%;
 		top: 234%;
+	}
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+	.phorm1 {
+		top: 130px;
+	}
+	,
+	.phorm2-3 {
+		top: 79%;
+		height: 30%;
+	}
+	,
+	.phorm4 {
+		height: 35%;
+		top: 122%;
+		left: 3%;
+	}
+
+	,
+	.phorm5 {
+		height: 40%;
+		top: 170%;
+		right: 5%;
+	}
+
+	,
+	.phorm6 {
+		height: 40%;
+		top: 222%;
+		left: 3%;
+	}
+	,
+	.location {
+		right: 5%;
+		top: 120%;
 	}
 }

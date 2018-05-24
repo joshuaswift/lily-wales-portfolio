@@ -14,7 +14,6 @@ class WarMachine extends Component {
 				<WMContent />
 				<ProjectTitle title="War Machine" color="rgb(245, 27, 236)" />
 				<LilyWales color={'rgb(0, 41, 255)'} />
-
 				<MediaQuery minWidth={900}>
 					<HomeButton top={'647%'} right={'5.5%'} paddingBottom={'12px'} />{' '}
 				</MediaQuery>

@@ -20,7 +20,7 @@
 .rhonda4 {
 	position: absolute;
 	top: 238%;
-	left: 5%;
+	padding-left: 5%;
 	height: 88%;
 }
 
@@ -34,23 +34,25 @@
 .rhonda6 {
 	position: absolute;
 	top: 425%;
-	left: 5%;
+	padding-left: 5%;
 	height: 65%;
 	padding-bottom: 4%;
 }
 
 .rhonda2 {
 	opacity: 0;
+	height: 0;
 }
 
 .rhonda3 {
 	opacity: 0;
+	height: 0;
 }
 
 @media only screen and (max-width: 600px) {
 	.rhonda1 {
 		height: 60%;
-		top: 21px;
+		top: 27px;
 		right: 9%;
 	}
 	,
@@ -60,7 +62,7 @@
 	,
 	.rhonda2 {
 		position: absolute;
-		top: 130%;
+		top: 126%;
 		opacity: 1;
 		height: 50%;
 		right: 5.5%;
@@ -68,27 +70,64 @@
 	,
 	.rhonda3 {
 		position: absolute;
-		top: 190%;
+		top: 187%;
 		opacity: 1;
-		width: 85%;
+		width: auto;
+		height: 30%;
 		left: 5%;
 	}
 	,
 	.rhonda4 {
-		top: 255%;
-		height: 31%;
-		left: 13%;
+		top: 249%;
+		height: 30%;
+		padding-left: 0;
+		right: 5%;
 	}
 	,
 	.rhonda5 {
-		top: 296%;
+		top: 290%;
 		height: 25%;
 		left: 5%;
 	}
 	,
 	.rhonda6 {
-		top: 331%;
+		top: 327%;
 		height: 30%;
-		left: 13%;
+		padding-left: 0%;
+		right: 5%;
+	}
+}
+@media screen and (max-width: 900px) and (min-width: 601px) {
+	.rhonda1 {
+		padding: 78px 0 0 0;
+		right: 9%;
+		height: 85%;
+	}
+
+	.rhonda2-3 {
+		top: 140%;
+		right: 9%;
+		height: 30%;
+		width: auto;
+	}
+
+	.rhonda4 {
+		top: 180%;
+		left: 5%;
+		height: 32%;
+	}
+
+	.rhonda5 {
+		position: absolute;
+		top: 223%;
+		right: 5%;
+		height: 35%;
+	}
+
+	.rhonda6 {
+		position: absolute;
+		top: 270%;
+		left: 5%;
+		height: 35%;
 	}
 }

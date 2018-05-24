@@ -25,7 +25,7 @@ class RadioactiveRhonda extends Component {
 						title="Radioactive Rhonda!"
 						color="rgb(255,32,32)"
 						lineHeight="0.7"
-						top="115px"
+						top="51px"
 					/>{' '}
 				</MediaQuery>
 				<MediaQuery maxWidth={599}>
@@ -38,22 +38,33 @@ class RadioactiveRhonda extends Component {
 				</MediaQuery>
 				<LilyWales color="rgb(0,255,126)" />
 				<RText color="rgb(255,32,32)" />
-				<MediaQuery minWidth={600}>
+				<MediaQuery minWidth={900}>
 					<HomeButton color="rgb(0,255,126)" top="487%" right="33%" />
 				</MediaQuery>
-				<MediaQuery maxWidth={599}>
+				<MediaQuery maxWidth={899} minWidth={601}>
 					<HomeButton
 						color="rgb(0,255,126)"
-						top="366%"
-						right="9%"
+						top="303%"
+						right="5.5%"
 						paddingBottom="15px"
 					/>
 				</MediaQuery>
-				<MediaQuery minWidth={600}>
+				<MediaQuery maxWidth={600}>
+					<HomeButton
+						color="rgb(0,255,126)"
+						top="363%"
+						right="5%"
+						paddingBottom="15px"
+					/>
+				</MediaQuery>
+				<MediaQuery minWidth={900}>
 					<BackToTop color="rgb(0,255,126)" top="482%" left="61%" />
 				</MediaQuery>
-				<MediaQuery maxWidth={599}>
-					<BackToTop color="rgb(0,255,126)" top="363%" right="9%" />
+				<MediaQuery minWidth={601} maxWidth={900}>
+					<BackToTop color="rgb(0,255,126)" top="300.5%" right="5.5%" />
+				</MediaQuery>
+				<MediaQuery maxWidth={600}>
+					<BackToTop color="rgb(0,255,126)" top="360%" right="5%" />
 				</MediaQuery>
 			</div>
 		);
