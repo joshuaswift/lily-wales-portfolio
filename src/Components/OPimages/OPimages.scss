@@ -8,7 +8,7 @@
 .mrPlumbob {
 	position: absolute;
 	height: 100%;
-	right: 15%;
+	padding-right: 15%;
 	top: 122%;
 }
 
@@ -41,27 +41,28 @@
 	}
 	,
 	.mrPlumbob {
-		top: 137%;
-		height: 30%;
-		right: 4%;
+		top: 127%;
+		height: 45%;
+		left: 2%;
+		padding-right: 0;
 	}
 	,
 	.fatMan {
-		top: 30%;
-		height: 20%;
+		top: 185%;
+		height: 40%;
 		right: 4%;
 	}
 	,
 	.annie {
-		top: 188%;
+		top: 235%;
 		height: 35%;
-		left: 5%;
+		left: 1%;
 	}
 	,
 	.gilda {
-		top: 240%;
-		height: 31%;
-		left: 8%;
+		top: 282%;
+		height: 35%;
+		right: 8%;
 	}
 }
 
@@ -79,21 +80,18 @@
 	}
 
 	.fatMan {
-		position: absolute;
 		height: 50%;
 		left: 5%;
 		top: 128%;
 	}
 
 	.annie {
-		position: absolute;
 		height: 50%;
 		right: 5%;
 		top: 195%;
 	}
 
 	.gilda {
-		position: absolute;
 		height: 50%;
 		left: 5%;
 		top: 254%;

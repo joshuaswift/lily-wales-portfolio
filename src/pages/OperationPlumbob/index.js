@@ -16,7 +16,11 @@ class OperationPlumbob extends Component {
 				<OPText />
 
 				<MediaQuery minWidth={601}>
-					<ProjectTitle title="Operation Plumbob" color="rgb(88, 246, 241)" />
+					<ProjectTitle
+						title="Operation Plumbob"
+						color="rgb(88, 246, 241)"
+						width="90%"
+					/>
 				</MediaQuery>
 				<MediaQuery maxWidth={600}>
 					<ProjectTitle
@@ -41,8 +45,8 @@ class OperationPlumbob extends Component {
 				<MediaQuery maxWidth={600}>
 					<HomeButton
 						color="rgb(255,32,32)"
-						top="511%"
-						right="44%"
+						top="321%"
+						left="5%"
 						paddingBottom="22px"
 					/>
 				</MediaQuery>
@@ -53,7 +57,7 @@ class OperationPlumbob extends Component {
 					<BackToTop color="rgb(255,32,32)" top="301%" left="5.5%" />
 				</MediaQuery>
 				<MediaQuery maxWidth={600}>
-					<BackToTop color="rgb(255,32,32)" top="507%" right="44%" />
+					<BackToTop color="rgb(255,32,32)" top="318%" left="5%" />
 				</MediaQuery>
 			</div>
 		);
