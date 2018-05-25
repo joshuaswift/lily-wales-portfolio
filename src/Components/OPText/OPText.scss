@@ -19,13 +19,13 @@
 }
 
 .fatTitle {
-	right: 10%;
+	padding-right: 10%;
 	top: 323%;
 }
 
 .annieTitle {
 	position: absolute;
-	left: 47%;
+	padding-left: 47%;
 	top: 368%;
 	color: rgb(88, 246, 241);
 }
@@ -70,5 +70,37 @@
 		top: 240%;
 		height: 31%;
 		left: 8%;
+	}
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+	.OPTextWrapper {
+		top: 15%;
+	}
+
+	.manhattenTitle {
+		left: 4%;
+		top: 34%;
+	}
+
+	.plumTitle {
+		left: 22%;
+		top: 98%;
+	}
+
+	.fatTitle {
+		left: 33%;
+		top: 174%;
+	}
+
+	.annieTitle {
+		right: 8%;
+		top: 203%;
+		color: rgb(88, 246, 241);
+	}
+
+	.gildaTitle {
+		right: 29%;
+		top: 263%;
 	}
 }

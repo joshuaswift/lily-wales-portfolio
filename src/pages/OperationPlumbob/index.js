@@ -15,10 +15,10 @@ class OperationPlumbob extends Component {
 				<OPimages />
 				<OPText />
 
-				<MediaQuery minWidth={600}>
+				<MediaQuery minWidth={601}>
 					<ProjectTitle title="Operation Plumbob" color="rgb(88, 246, 241)" />
 				</MediaQuery>
-				<MediaQuery maxWidth={599}>
+				<MediaQuery maxWidth={600}>
 					<ProjectTitle
 						title="Operation Plumbob"
 						color="rgb(88, 246, 241)"
@@ -27,10 +27,18 @@ class OperationPlumbob extends Component {
 					/>
 				</MediaQuery>
 				<LilyWales color="rgb(255,32,32)" />
-				<MediaQuery minWidth={600}>
+				<MediaQuery minWidth={900}>
 					<HomeButton color="rgb(255,32,32)" top="511%" right="44%" />
 				</MediaQuery>
-				<MediaQuery maxWidth={599}>
+				<MediaQuery maxWidth={899} minWidth={601}>
+					<HomeButton
+						color="rgb(255,32,32)"
+						top="304%"
+						left="5.5%"
+						paddingBottom="22px"
+					/>{' '}
+				</MediaQuery>
+				<MediaQuery maxWidth={600}>
 					<HomeButton
 						color="rgb(255,32,32)"
 						top="511%"
@@ -38,10 +46,13 @@ class OperationPlumbob extends Component {
 						paddingBottom="22px"
 					/>
 				</MediaQuery>
-				<MediaQuery minWidth={600}>
+				<MediaQuery minWidth={900}>
 					<BackToTop color="rgb(255,32,32)" top="507%" right="44%" />
 				</MediaQuery>
-				<MediaQuery maxWidth={599}>
+				<MediaQuery minWidth={600} maxWidth={899}>
+					<BackToTop color="rgb(255,32,32)" top="301%" left="5.5%" />
+				</MediaQuery>
+				<MediaQuery maxWidth={600}>
 					<BackToTop color="rgb(255,32,32)" top="507%" right="44%" />
 				</MediaQuery>
 			</div>
