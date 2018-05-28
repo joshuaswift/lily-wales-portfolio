@@ -17,11 +17,11 @@ class WarMachine extends Component {
 				<MediaQuery minWidth={900}>
 					<HomeButton top={'649%'} right={'5.5%'} paddingBottom={'17px'} />{' '}
 				</MediaQuery>
-				<MediaQuery maxWidth={899} minWidth={601}>
-					<HomeButton top={'440%'} right={'9%'} paddingBottom={'28px'} />{' '}
+				<MediaQuery maxWidth={899} minWidth={600}>
+					<HomeButton top={'441%'} right={'9%'} paddingBottom={'28px'} />{' '}
 				</MediaQuery>
 				<MediaQuery maxWidth={600}>
-					<HomeButton top={'664%'} right={'5.5%'} paddingBottom={'27px'} />{' '}
+					<HomeButton top={'665%'} right={'5.5%'} paddingBottom={'27px'} />{' '}
 				</MediaQuery>
 				<MediaQuery minWidth={900}>
 					<BackToTop top={'645%'} right={'5.5%'} />{' '}
@@ -30,7 +30,7 @@ class WarMachine extends Component {
 					<BackToTop top={'438%'} right={'9%'} />{' '}
 				</MediaQuery>
 				<MediaQuery maxWidth={600}>
-					<BackToTop top={'661%'} right={'5.5%'} />{' '}
+					<BackToTop top={'662%'} right={'5.5%'} />{' '}
 				</MediaQuery>
 			</div>
 		);

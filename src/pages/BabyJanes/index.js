@@ -20,6 +20,7 @@ class BabyJanes extends Component {
 						color="rgb(108, 0, 255)"
 						lineHeight="0.7"
 						top="114px"
+						width="90%"
 					/>
 				</MediaQuery>
 				<MediaQuery minWidth={601} maxWidth={899}>

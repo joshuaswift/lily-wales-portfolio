@@ -41,12 +41,12 @@ const ProjectTitle = props => {
 					<h1>{props.title.toUpperCase()}</h1>
 				</div>
 			</MediaQuery>
-			<MediaQuery minWidth={600} maxWidth={899}>
+			<MediaQuery minWidth={601} maxWidth={899}>
 				<div style={styles.ipadtitle}>
 					<h1>{props.title.toUpperCase()}</h1>
 				</div>
 			</MediaQuery>
-			<MediaQuery maxWidth={599}>
+			<MediaQuery maxWidth={600}>
 				<div style={styles.mobiletitle}>
 					<h1>{props.title.toUpperCase()}</h1>
 				</div>

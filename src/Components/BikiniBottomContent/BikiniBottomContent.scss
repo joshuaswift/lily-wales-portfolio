@@ -1,0 +1,285 @@
+.wrapper {
+	width: 100vw;
+}
+
+.bb1 {
+	position: absolute;
+	top: 7%;
+	padding-left: 4%;
+	height: 100%;
+}
+
+.bb2 {
+	position: absolute;
+	top: 121%;
+	right: 5.5%;
+	height: 95%;
+}
+
+.bb3-4 {
+	position: absolute;
+	top: 229%;
+	left: 9%;
+	height: 95%;
+	display: visible;
+}
+
+.bb5-6 {
+	position: absolute;
+	top: 334%;
+	right: 10%;
+	height: 95%;
+	display: visible;
+}
+
+.bb3 {
+	position: absolute;
+	opacity: 0;
+	height: 0;
+}
+
+.bb4 {
+	position: absolute;
+	opacity: 0;
+	height: 0;
+}
+
+.bb5 {
+	position: absolute;
+	opacity: 0;
+	height: 0;
+}
+
+.bb6 {
+	position: absolute;
+	opacity: 0;
+	height: 0;
+}
+
+.bb7 {
+	position: absolute;
+	top: 445%;
+	padding-left: 5%;
+	height: 90%;
+}
+.bb8-9 {
+	position: absolute;
+	top: 547%;
+	height: 105%;
+	right: 9%;
+}
+
+.bb8 {
+	position: absolute;
+	opacity: 0;
+	height: 0;
+}
+
+.bb9 {
+	position: absolute;
+	opacity: 0;
+	height: 0;
+}
+
+.bb10 {
+	position: absolute;
+	top: 645%;
+	left: 5%;
+	height: 120%;
+}
+
+.bb11-12 {
+	position: absolute;
+	top: 780%;
+	right: 9%;
+	height: 90%;
+	display: visible;
+}
+
+.bb11 {
+	position: absolute;
+	opacity: 0;
+	height: 0;
+}
+
+.bb12 {
+	position: absolute;
+	opacity: 0;
+	height: 0;
+}
+
+.BBdescript {
+	position: absolute;
+	color: rgb(201, 0, 203);
+	text-align: right;
+	top: 81%;
+	right: 5.5%;
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+	.bb1 {
+		top: 78px;
+		padding-left: 0;
+		height: 60%;
+		right: 9%;
+	}
+
+	,
+	.bb2 {
+		top: 95%;
+		height: 45%;
+	}
+
+	,
+	.bb3-4 {
+		top: 152%;
+		left: 9%;
+		height: 46%;
+	}
+
+	,
+	.bb5-6 {
+		top: 209%;
+		height: 42%;
+		left: 18%;
+	}
+
+	,
+	.bb7 {
+		top: 264%;
+		padding-left: 0;
+		height: 44%;
+		right: 5.5%;
+	}
+	,
+	.bb8-9 {
+		top: 319%;
+		height: 48%;
+		right: 9%;
+	}
+
+	,
+	.bb10 {
+		top: 369%;
+		right: 7%;
+		height: 51%;
+	}
+
+	,
+	.bb11-12 {
+		top: 428%;
+		height: 45%;
+	}
+
+	,
+	.BBdescript {
+		top: 72%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.bb1 {
+		top: 45.5px;
+		right: 9%;
+		height: 70%;
+	}
+
+	.bb2 {
+		top: 106%;
+		right: 5.5%;
+		height: 41%;
+	}
+
+	,
+	.bb3 {
+		opacity: 1;
+		height: 50%;
+		left: 6.5%;
+		top: 155%;
+	}
+
+	,
+	.bb4 {
+		opacity: 1;
+		height: 50%;
+		right: 5.5%;
+		top: 210%;
+	}
+	,
+	.bb5 {
+		opacity: 1;
+		height: 50%;
+		right: 2.5%;
+		top: 321%;
+	}
+
+	,
+	.bb6 {
+		opacity: 1;
+		height: 43%;
+		left: 6.5%;
+		top: 268%;
+	}
+
+	,
+	.bb3-4 {
+		display: none;
+	}
+	,
+	.bb5-6 {
+		display: none;
+	}
+	,
+	.bb7 {
+		top: 382%;
+		height: 30%;
+		padding-left: 0;
+		left: 4.5%;
+	}
+
+	,
+	.bb8-9 {
+		display: none;
+	}
+	.bb8 {
+		opacity: 1;
+		height: 34%;
+		right: 3.5%;
+		top: 426%;
+	}
+
+	,
+	.bb9 {
+		opacity: 1;
+		height: 43%;
+		left: 6.5%;
+		top: 470%;
+	}
+
+	,
+	.bb10 {
+		top: 520%;
+		height: 40%;
+		right: 5.5%;
+	}
+	,
+	.bb11 {
+		opacity: 1;
+		height: 35%;
+		right: 6.5%;
+		top: 568%;
+	}
+
+	,
+	.bb12 {
+		opacity: 1;
+		height: 45%;
+		left: 6.5%;
+		top: 613%;
+	}
+
+	,
+	.bb11-12 {
+		display: none;
+	}
+}
