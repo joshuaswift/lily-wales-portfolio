@@ -14,10 +14,18 @@ class Phorm extends Component {
 				<PhormContent />
 				<ProjectTitle title="Phorm" color="rgb(255,85,1)" />
 				<LilyWales color="rgb(5,176,255)" />
-				<MediaQuery minWidth={600}>
+				<MediaQuery minWidth={900}>
 					<HomeButton color="rgb(5,176,255)" top="517%" right="8%" />
 				</MediaQuery>
-				<MediaQuery maxWidth={599}>
+				<MediaQuery maxWidth={899} minWidth={601}>
+					<HomeButton
+						color="rgb(5,176,255)"
+						top="271%"
+						left="2.5%"
+						paddingBottom={'20px'}
+					/>{' '}
+				</MediaQuery>
+				<MediaQuery maxWidth={600}>
 					<HomeButton
 						color="rgb(5,176,255)"
 						top="292%"
@@ -25,10 +33,13 @@ class Phorm extends Component {
 						paddingBottom="15px"
 					/>
 				</MediaQuery>
-				<MediaQuery minWidth={600}>
+				<MediaQuery minWidth={900}>
 					<BackToTop color="rgb(5,176,255)" top="512%" right="8%" />{' '}
 				</MediaQuery>
-				<MediaQuery maxWidth={599}>
+				<MediaQuery minWidth={601} maxWidth={899}>
+					<BackToTop color="rgb(5,176,255)" top="267%" left="2.5%" />{' '}
+				</MediaQuery>
+				<MediaQuery maxWidth={601}>
 					<BackToTop color="rgb(5,176,255)" top="289%" right="9%" />{' '}
 				</MediaQuery>
 			</div>

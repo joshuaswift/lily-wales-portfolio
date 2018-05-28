@@ -10,7 +10,7 @@
 
 .photo-credit {
 	position: absolute;
-	color: rgb(0, 255, 126);
+	color: rgb(237, 40, 52);
 	right: 5%;
 	top: 235%;
 }
@@ -22,7 +22,18 @@
 	}
 	,
 	.photo-credit {
-		left: 9%;
-		top: 229%;
+		left: 5%;
+		top: 222%;
+	}
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+	.RTextWrapper {
+		top: 97%;
+	}
+	,
+	.photo-credit {
+		right: 5.5%;
+		top: 198%;
 	}
 }

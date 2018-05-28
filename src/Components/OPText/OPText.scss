@@ -25,7 +25,7 @@
 
 .annieTitle {
 	position: absolute;
-	left: 47%;
+	padding-left: 47%;
 	top: 368%;
 	color: rgb(88, 246, 241);
 }
@@ -42,33 +42,60 @@
 	}
 	,
 	.manhattenTitle {
-		height: 41%;
 		top: 33%;
 		left: 62%;
 	}
 	,
-	.mrPlumbob {
-		top: 130%;
-		opacity: 1;
-		height: 50%;
-		right: 4%;
+	.plumTitle {
+		top: 156%;
+		left: 10%;
 	}
 	,
-	.fatMan {
-		top: 130%;
-		height: 50%;
-		right: 4%;
+	.fatTitle {
+		top: 221%;
+		left: 45%;
 	}
 	,
-	.annie {
-		top: 188%;
-		height: 35%;
-		left: 5%;
+	.annieTitle {
+		padding-left: 0;
+		top: 239%;
+		right: 14%;
 	}
 	,
-	.gilda {
-		top: 240%;
-		height: 31%;
-		left: 8%;
+	.gildaTitle {
+		top: 288%;
+		right: 8%;
+	}
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+	.OPTextWrapper {
+		top: 15%;
+	}
+
+	.manhattenTitle {
+		left: 4%;
+		top: 34%;
+	}
+
+	.plumTitle {
+		left: 22%;
+		top: 98%;
+	}
+
+	.fatTitle {
+		left: 33%;
+		top: 174%;
+	}
+
+	.annieTitle {
+		right: 8%;
+		top: 203%;
+		color: rgb(88, 246, 241);
+	}
+
+	.gildaTitle {
+		right: 29%;
+		top: 263%;
 	}
 }
