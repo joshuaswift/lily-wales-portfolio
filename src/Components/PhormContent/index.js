@@ -11,7 +11,7 @@ import p6 from './phorm6.jpg';
 class PhormContent extends Component {
 	render() {
 		return (
-			<div className="wrapper">
+			<div>
 				<img className="phorm1" src={p1} alt="Phorm" />
 				<img className="phorm2-3" src={p23} alt="Phorm" />
 				<img className="phorm2" src={p2} alt="Phorm" />

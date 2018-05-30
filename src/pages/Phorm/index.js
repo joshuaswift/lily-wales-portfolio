@@ -20,7 +20,7 @@ class Phorm extends Component {
 				<MediaQuery maxWidth={899} minWidth={601}>
 					<HomeButton
 						color="rgb(5,176,255)"
-						top="271%"
+						top="270%"
 						left="2.5%"
 						paddingBottom={'20px'}
 					/>{' '}
