@@ -26,7 +26,6 @@ const App = () => (
       <Route path="/trumpin" component={Trumpin} />
       <Route path="/whateverhappenedtoallthebabyjanes" component={BabyJanes} />
       <Route path="/bikinibottom" component={BikiniBottom} />
-      <Route path="/recreationalretina" component={Bom} />
       <Route path="/lasvagueness" component={LasVagueness} />
       <Route path="/phorm" component={Phorm} />
       <Route path="/operationplumbob" component={OperationPlumbob} />
