@@ -1,0 +1,125 @@
+.wrapper {
+  width: 100vw;
+}
+
+.BSTextWrapper {
+  position: absolute;
+  right: 5.5%;
+  top: 40%;
+  height: 800px;
+  width: 350px;
+  text-align: right;
+  color: rgb(0, 33, 255);
+}
+
+.bs1 {
+  position: absolute;
+  padding: 5% 0 0 5%;
+  height: 80%;
+}
+
+.bs2 {
+  position: absolute;
+  top: 410%;
+  height: 95%;
+  left: 14%;
+  padding-bottom: 50px;
+}
+
+.bsgif1 {
+  position: absolute;
+  height: 70%;
+  top: 133%;
+  right: 10%;
+}
+
+.bsgif2 {
+  position: absolute;
+  height: 70%;
+  top: 228%;
+  left: 10%;
+}
+
+.bsgif3 {
+  position: absolute;
+  height: 70%;
+  top: 322%;
+  right: 10%;
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+  .bs1 {
+    right: 9%;
+    height: 60%;
+    padding: 78px 0 0 0;
+  }
+
+  ,
+  .BSTextWrapper {
+    top: 78%;
+  }
+
+  ,
+  .bsgif1 {
+    height: auto;
+    width: 60%;
+    top: 145%;
+  }
+  ,
+  .bsgif2 {
+    height: auto;
+    width: 60%;
+    top: 203%;
+  }
+  ,
+  .bsgif3 {
+    height: auto;
+    width: 60%;
+    top: 262%;
+  }
+  ,
+  .bs2 {
+    height: auto;
+    width: 60%;
+    top: 318%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bs1 {
+    height: auto;
+    width: 70%;
+    padding: 46px 0 0 0;
+    right: 9%;
+  }
+
+  ,
+  .BSTextWrapper {
+    top: 42%;
+  }
+
+  ,
+  .bsgif1 {
+    height: auto;
+    width: 70%;
+    top: 89%;
+  }
+  ,
+  .bsgif2 {
+    height: auto;
+    width: 70%;
+    top: 123%;
+  }
+  ,
+  .bsgif3 {
+    height: auto;
+    width: 70%;
+    top: 157%;
+  }
+  ,
+  .bs2 {
+    height: auto;
+    width: 60%;
+    top: 190%;
+  }
+}
