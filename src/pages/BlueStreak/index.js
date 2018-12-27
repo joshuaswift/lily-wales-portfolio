@@ -37,10 +37,10 @@ class BlueStreak extends Component {
           <BackToTop color="rgb(0, 33, 255)" top="370%" left="5%" />
         </MediaQuery>
         <MediaQuery maxWidth={600} minWidth={321}>
-          <BackToTop color="rgb(0, 33, 255)" top=" 275%" left="5%" />
+          <BackToTop color="rgb(0, 33, 255)" top=" 285%" left="5%" />
         </MediaQuery>
         <MediaQuery maxWidth={320}>
-          <BackToTop color="rgb(0, 33, 255)" top=" 286%" left="5%" />
+          <BackToTop color="rgb(0, 33, 255)" top=" 296%" left="5%" />
         </MediaQuery>
 
         <MediaQuery minWidth={900}>
@@ -62,7 +62,7 @@ class BlueStreak extends Component {
         <MediaQuery maxWidth={600} minWidth={321}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top=" 278%"
+            top=" 288%"
             left="5%"
             paddingBottom="50px"
           />{" "}
@@ -70,7 +70,7 @@ class BlueStreak extends Component {
         <MediaQuery maxWidth={320}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top=" 289%"
+            top=" 299%"
             left="5%"
             paddingBottom="50px"
           />{" "}
