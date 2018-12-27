@@ -20,31 +20,31 @@
 
 .bs2 {
   position: absolute;
-  top: 410%;
+  top: 435%;
   height: 95%;
-  left: 14%;
+  left: 5%;
   padding-bottom: 50px;
 }
 
 .bsgif1 {
   position: absolute;
-  height: 70%;
+  height: 80%;
   top: 133%;
-  right: 10%;
+  right: 5%;
 }
 
 .bsgif2 {
   position: absolute;
-  height: 70%;
-  top: 228%;
-  left: 10%;
+  height: 80%;
+  top: 234%;
+  left: 5%;
 }
 
 .bsgif3 {
   position: absolute;
-  height: 70%;
-  top: 322%;
-  right: 10%;
+  height: 80%;
+  top: 335%;
+  right: 5%;
 }
 
 @media screen and (max-width: 900px) and (min-width: 601px) {
@@ -62,30 +62,30 @@
   ,
   .bsgif1 {
     height: auto;
-    width: 60%;
-    top: 145%;
+    height: 40%;
+    top: 142%;
   }
   ,
   .bsgif2 {
     height: auto;
-    width: 60%;
-    top: 203%;
+    height: 40%;
+    top: 195%;
   }
   ,
   .bsgif3 {
     height: auto;
-    width: 60%;
-    top: 262%;
+    height: 40%;
+    top: 249%;
   }
   ,
   .bs2 {
     height: auto;
-    width: 60%;
-    top: 318%;
+    height: 60%;
+    top: 303%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 321px) {
   .bs1 {
     height: auto;
     width: 70%;
@@ -95,31 +95,63 @@
 
   ,
   .BSTextWrapper {
-    top: 42%;
+    top: 53%;
   }
 
   ,
   .bsgif1 {
-    height: auto;
-    width: 70%;
-    top: 89%;
+    height: 30%;
+    top: 110%;
   }
   ,
   .bsgif2 {
-    height: auto;
-    width: 70%;
-    top: 123%;
+    height: 30%;
+    top: 152%;
   }
   ,
   .bsgif3 {
+    height: 30%;
+    top: 195%;
+  }
+  ,
+  .bs2 {
+    height: 35%;
+    top: 238%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bs1 {
     height: auto;
     width: 70%;
-    top: 157%;
+    padding: 46px 0 0 0;
+    right: 9%;
+  }
+
+  ,
+  .BSTextWrapper {
+    top: 55%;
+  }
+
+  ,
+  .bsgif1 {
+    height: 30%;
+    top: 122%;
+  }
+  ,
+  .bsgif2 {
+    height: 30%;
+    top: 161%;
+  }
+  ,
+  .bsgif3 {
+    height: 30%;
+    top: 201%;
   }
   ,
   .bs2 {
     height: auto;
-    width: 60%;
-    top: 190%;
+    height: 40%;
+    top: 242%;
   }
 }

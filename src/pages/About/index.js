@@ -22,14 +22,19 @@ class BabyJanes extends Component {
         </MediaQuery>
         <MediaQuery minWidth={601} maxWidth={899}>
           <HomeButton
-            top="226.8%"
+            top="193.5%"
             color="rgb(248,39,127)"
             left="10%"
             paddingBottom="20px"
           />{" "}
         </MediaQuery>
         <MediaQuery maxWidth={600}>
-          <HomeButton color="rgb(248,39,127)" top="177%" left="11%" />
+          <HomeButton
+            color="rgb(248,39,127)"
+            top="238%"
+            left="11%"
+            paddingBottom="50px"
+          />
         </MediaQuery>
 
         <MediaQuery maxWidth={600}>
@@ -47,10 +52,10 @@ class BabyJanes extends Component {
           <BackToTop top="250%" color="rgb(248,39,127)" right="5.5%" />{" "}
         </MediaQuery>
         <MediaQuery minWidth={601} maxWidth={899}>
-          <BackToTop top="223%" color="rgb(248,39,127)" left="10%" />{" "}
+          <BackToTop top="190%" color="rgb(248,39,127)" left="10%" />{" "}
         </MediaQuery>
         <MediaQuery maxWidth={600}>
-          <BackToTop top="174%" color="rgb(248,39,127)" left="11%" />
+          <BackToTop top="234%" color="rgb(248,39,127)" left="11%" />
         </MediaQuery>
       </div>
     );

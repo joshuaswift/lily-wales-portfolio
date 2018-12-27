@@ -31,19 +31,22 @@ class BlueStreak extends Component {
         <LilyWales color="rgb(38, 235, 34)" />
 
         <MediaQuery minWidth={900}>
-          <BackToTop color="rgb(0, 33, 255)" top="520%" right="5.5%" />
+          <BackToTop color="rgb(0, 33, 255)" top="523%" right="5.5%" />
         </MediaQuery>
         <MediaQuery maxWidth={899} minWidth={601}>
-          <BackToTop color="rgb(0, 33, 255)" top="401%" left="5.5%" />
+          <BackToTop color="rgb(0, 33, 255)" top="370%" left="5%" />
         </MediaQuery>
-        <MediaQuery maxWidth={600}>
-          <BackToTop color="rgb(0, 33, 255)" top=" 224%" right="6%" />
+        <MediaQuery maxWidth={600} minWidth={321}>
+          <BackToTop color="rgb(0, 33, 255)" top=" 275%" left="5%" />
+        </MediaQuery>
+        <MediaQuery maxWidth={320}>
+          <BackToTop color="rgb(0, 33, 255)" top=" 286%" left="5%" />
         </MediaQuery>
 
         <MediaQuery minWidth={900}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top="525%"
+            top="527%"
             right="5.5%"
             paddingBottom="50px"
           />{" "}
@@ -51,16 +54,24 @@ class BlueStreak extends Component {
         <MediaQuery maxWidth={899} minWidth={601}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top="404.5%"
-            left="5.5%"
+            top="373.5%"
+            left="4.9%"
             paddingBottom="50px"
           />{" "}
         </MediaQuery>
-        <MediaQuery maxWidth={600}>
+        <MediaQuery maxWidth={600} minWidth={321}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top=" 226%"
-            right="6%"
+            top=" 278%"
+            left="5%"
+            paddingBottom="50px"
+          />{" "}
+        </MediaQuery>
+        <MediaQuery maxWidth={320}>
+          <HomeButton
+            color="rgb(0, 33, 255)"
+            top=" 289%"
+            left="5%"
             paddingBottom="50px"
           />{" "}
         </MediaQuery>

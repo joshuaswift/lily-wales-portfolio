@@ -19,13 +19,6 @@
   color: rgb(0, 204, 255);
 }
 
-.currentWrapper {
-  position: absolute;
-  left: 8%;
-  top: 145%;
-  color: rgb(255, 126, 0);
-}
-
 .pastWrapperLarge {
   position: absolute;
   left: 8%;
@@ -38,6 +31,12 @@
   position: absolute;
   color: rgb(174, 0, 255);
   opacity: 0;
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+  .pastWrapperLarge {
+    top: 118%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -60,7 +59,7 @@
   .pastWrapperSmall {
     position: absolute;
     left: 8%;
-    top: 95%;
+    top: 107%;
     line-height: 1.5;
     opacity: 1;
   }
