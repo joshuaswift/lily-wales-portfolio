@@ -8,7 +8,7 @@ import phormHomeImg from "./phormHome.jpg";
 // import trumpinHomeImg from './trumpinHome.png';
 import babyJanesHomeImg from "./babyJanesHome.jpg";
 import warMachineHomeImg from "./warMachineHome.jpg";
-import lasVaguenessHomeImg from "./lasVaguenessHome.png";
+// import lasVaguenessHomeImg from "./lasVaguenessHome.png";
 import nuclearosisHomeImg from "./nuclearosisHome.jpg";
 import blueStreakHomeImg from "./blueStreakHome.jpg";
 import aboutHomeImg from "./aboutHome.png";
