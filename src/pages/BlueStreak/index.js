@@ -29,32 +29,30 @@ class BlueStreak extends Component {
           />
         </MediaQuery>
         <LilyWales color="rgb(38, 235, 34)" />
-
         <MediaQuery minWidth={900}>
-          <BackToTop color="rgb(0, 33, 255)" top="523%" right="5.5%" />
+          <BackToTop color="rgb(0, 33, 255)" top="784.5%" left="5.5%" />
         </MediaQuery>
         <MediaQuery maxWidth={899} minWidth={601}>
-          <BackToTop color="rgb(0, 33, 255)" top="370%" left="5%" />
+          <BackToTop color="rgb(0, 33, 255)" top="428.5%" left="5%" />
         </MediaQuery>
         <MediaQuery maxWidth={600} minWidth={321}>
-          <BackToTop color="rgb(0, 33, 255)" top=" 285%" left="5%" />
+          <BackToTop color="rgb(0, 33, 255)" top=" 412%" left="5%" />
         </MediaQuery>
         <MediaQuery maxWidth={320}>
-          <BackToTop color="rgb(0, 33, 255)" top=" 296%" left="5%" />
+          <BackToTop color="rgb(0, 33, 255)" top=" 426%" left="5%" />
         </MediaQuery>
-
         <MediaQuery minWidth={900}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top="527%"
-            right="5.5%"
+            top="789%"
+            left="5.5%"
             paddingBottom="50px"
           />{" "}
         </MediaQuery>
         <MediaQuery maxWidth={899} minWidth={601}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top="373.5%"
+            top="431%"
             left="4.9%"
             paddingBottom="50px"
           />{" "}
@@ -62,7 +60,7 @@ class BlueStreak extends Component {
         <MediaQuery maxWidth={600} minWidth={321}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top=" 288%"
+            top=" 415%"
             left="5%"
             paddingBottom="50px"
           />{" "}
@@ -70,7 +68,7 @@ class BlueStreak extends Component {
         <MediaQuery maxWidth={320}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top=" 299%"
+            top=" 430%"
             left="5%"
             paddingBottom="50px"
           />{" "}

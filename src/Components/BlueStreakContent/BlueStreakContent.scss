@@ -15,36 +15,39 @@
 .bs1 {
   position: absolute;
   padding: 5% 0 0 5%;
-  height: 80%;
+  height: 100%;
 }
 
 .bs2 {
   position: absolute;
   top: 435%;
-  height: 95%;
+  height: 75%;
   left: 5%;
   padding-bottom: 50px;
 }
 
-.bsgif1 {
+.bs3 {
   position: absolute;
-  height: 80%;
-  top: 133%;
+  top: 530%;
+  height: 75%;
   right: 5%;
+  padding-bottom: 50px;
 }
 
-.bsgif2 {
+.bs4 {
   position: absolute;
-  height: 80%;
-  top: 234%;
+  top: 624%;
+  height: 75%;
   left: 5%;
+  padding-bottom: 50px;
 }
 
-.bsgif3 {
+.bs5 {
   position: absolute;
-  height: 80%;
-  top: 335%;
+  top: 717%;
+  height: 75%;
   right: 5%;
+  padding-bottom: 50px;
 }
 
 @media screen and (max-width: 900px) and (min-width: 601px) {
@@ -60,28 +63,25 @@
   }
 
   ,
-  .bsgif1 {
-    height: auto;
-    height: 40%;
-    top: 142%;
-  }
-  ,
-  .bsgif2 {
-    height: auto;
-    height: 40%;
-    top: 195%;
-  }
-  ,
-  .bsgif3 {
-    height: auto;
-    height: 40%;
-    top: 249%;
-  }
-  ,
   .bs2 {
-    height: auto;
-    height: 60%;
-    top: 303%;
+    height: 36%;
+    top: 262%;
+  }
+  ,
+  .bs3 {
+    height: 36%;
+    top: 307%;
+  }
+  ,
+  .bs4 {
+    height: 36%;
+    top: 352%;
+  }
+  ,
+  .bs5 {
+    height: 36%;
+    top: 397%;
+    padding-bottom: 50px;
   }
 }
 
@@ -96,26 +96,25 @@
   .BSTextWrapper {
     top: 53%;
   }
-
-  ,
-  .bsgif1 {
-    height: 30%;
-    top: 120%;
-  }
-  ,
-  .bsgif2 {
-    height: 30%;
-    top: 162%;
-  }
-  ,
-  .bsgif3 {
-    height: 30%;
-    top: 205%;
-  }
   ,
   .bs2 {
-    height: 35%;
+    height: 30%;
     top: 248%;
+  }
+  ,
+  .bs3 {
+    height: 30%;
+    top: 291%;
+  }
+  ,
+  .bs4 {
+    height: 30%;
+    top: 334%;
+  }
+  ,
+  .bs5 {
+    height: 30%;
+    top: 377%;
   }
 }
 
@@ -132,24 +131,24 @@
   }
 
   ,
-  .bsgif1 {
-    height: 30%;
-    top: 122%;
-  }
-  ,
-  .bsgif2 {
-    height: 30%;
-    top: 171%;
-  }
-  ,
-  .bsgif3 {
-    height: 30%;
-    top: 211%;
-  }
-  ,
   .bs2 {
     height: auto;
-    height: 40%;
+    height: 33%;
     top: 252%;
+  }
+  ,
+  .bs3 {
+    height: 33%;
+    top: 297%;
+  }
+  ,
+  .bs4 {
+    height: 33%;
+    top: 343%;
+  }
+  ,
+  .bs5 {
+    height: 33%;
+    top: 388%;
   }
 }
