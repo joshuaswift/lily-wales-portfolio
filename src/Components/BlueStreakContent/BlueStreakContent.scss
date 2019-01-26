@@ -23,7 +23,6 @@
   top: 435%;
   height: 75%;
   left: 5%;
-  padding-bottom: 50px;
 }
 
 .bs3 {
@@ -31,7 +30,6 @@
   top: 530%;
   height: 75%;
   right: 5%;
-  padding-bottom: 50px;
 }
 
 .bs4 {
@@ -39,7 +37,6 @@
   top: 624%;
   height: 75%;
   left: 5%;
-  padding-bottom: 50px;
 }
 
 .bs5 {
@@ -47,7 +44,14 @@
   top: 717%;
   height: 75%;
   right: 5%;
-  padding-bottom: 50px;
+}
+
+.bs6 {
+  position: absolute;
+  top: 809%;
+  height: 75%;
+  left: 5%;
+  padding-bottom: 100px;
 }
 
 @media screen and (max-width: 900px) and (min-width: 601px) {
@@ -65,23 +69,28 @@
   ,
   .bs2 {
     height: 36%;
-    top: 262%;
+    top: 290%;
   }
   ,
   .bs3 {
     height: 36%;
-    top: 307%;
+    top: 340%;
   }
   ,
   .bs4 {
     height: 36%;
-    top: 352%;
+    top: 390%;
   }
   ,
   .bs5 {
     height: 36%;
-    top: 397%;
-    padding-bottom: 50px;
+    top: 440%;
+  }
+  ,
+  .bs6 {
+    height: 36%;
+    top: 490%;
+    padding-bottom: 100px;
   }
 }
 
@@ -116,6 +125,11 @@
     height: 30%;
     top: 377%;
   }
+  ,
+  .bs6 {
+    height: 30%;
+    top: 419%;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -134,12 +148,12 @@
   .bs2 {
     height: auto;
     height: 33%;
-    top: 252%;
+    top: 254%;
   }
   ,
   .bs3 {
     height: 33%;
-    top: 297%;
+    top: 299%;
   }
   ,
   .bs4 {
@@ -150,5 +164,10 @@
   .bs5 {
     height: 33%;
     top: 388%;
+  }
+  ,
+  .bs6 {
+    height: 33%;
+    top: 433%;
   }
 }

@@ -23,18 +23,12 @@ class ContactContent extends Component {
         <div className="contacts">
           <div className="email">
             <p>lily.wales@outlook.com</p>
-            <img
-              className="insta"
-              src={insta}
-              alt="instagram"
-              href="https://www.instagram.com/lilywales"
-            />
-            <img
-              className="twitter"
-              src={twitter}
-              alt="twitter"
-              href="https://www.twitter.com/lilywales"
-            />
+            <a href={"https://www.instagram.com/lilywales"}>
+              <img className="insta" src={insta} alt="instagram" />
+            </a>
+            <a href={"https://www.twitter.com/lilywales"}>
+              <img className="twitter" src={twitter} alt="twitter" />
+            </a>
           </div>
         </div>
       </div>

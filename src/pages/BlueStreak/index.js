@@ -30,46 +30,46 @@ class BlueStreak extends Component {
         </MediaQuery>
         <LilyWales color="rgb(38, 235, 34)" />
         <MediaQuery minWidth={900}>
-          <BackToTop color="rgb(0, 33, 255)" top="784.5%" left="5.5%" />
+          <BackToTop color="rgb(0, 33, 255)" top="888.5%" left="4.8%" />
         </MediaQuery>
         <MediaQuery maxWidth={899} minWidth={601}>
-          <BackToTop color="rgb(0, 33, 255)" top="428.5%" left="5%" />
+          <BackToTop color="rgb(0, 33, 255)" top="530.5%" left="4.8%" />
         </MediaQuery>
         <MediaQuery maxWidth={600} minWidth={321}>
-          <BackToTop color="rgb(0, 33, 255)" top=" 412%" left="5%" />
+          <BackToTop color="rgb(0, 33, 255)" top=" 453%" left="4.8%" />
         </MediaQuery>
         <MediaQuery maxWidth={320}>
-          <BackToTop color="rgb(0, 33, 255)" top=" 426%" left="5%" />
+          <BackToTop color="rgb(0, 33, 255)" top=" 469%" left="4.8%" />
         </MediaQuery>
         <MediaQuery minWidth={900}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top="789%"
-            left="5.5%"
+            top="893%"
+            left="4.8%"
             paddingBottom="50px"
           />{" "}
         </MediaQuery>
         <MediaQuery maxWidth={899} minWidth={601}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top="431%"
-            left="4.9%"
+            top="534.5%"
+            left="4.8%"
             paddingBottom="50px"
           />{" "}
         </MediaQuery>
         <MediaQuery maxWidth={600} minWidth={321}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top=" 415%"
-            left="5%"
+            top=" 456%"
+            left="4.8%"
             paddingBottom="50px"
           />{" "}
         </MediaQuery>
         <MediaQuery maxWidth={320}>
           <HomeButton
             color="rgb(0, 33, 255)"
-            top=" 430%"
-            left="5%"
+            top=" 473%"
+            left="4.8%"
             paddingBottom="50px"
           />{" "}
         </MediaQuery>

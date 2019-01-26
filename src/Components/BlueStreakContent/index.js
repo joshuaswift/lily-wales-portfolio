@@ -25,6 +25,7 @@ import bs2 from "./bs2.jpg";
 import bs3 from "./bs3.jpg";
 import bs4 from "./bs4.jpg";
 import bs5 from "./bs5.jpg";
+import bs6 from "./bs6.jpg";
 
 const styles = {
   gif1: {
@@ -36,7 +37,7 @@ const styles = {
   gif1Ipad: {
     position: "absolute",
     height: "60%",
-    top: "76%",
+    top: "88%",
     right: "5%"
   },
   gif1PhoneL: {
@@ -47,8 +48,8 @@ const styles = {
   },
   gif1PhoneS: {
     position: "absolute",
-    height: "55%",
-    top: "80%",
+    height: "54%",
+    top: "86%",
     right: "5%"
   },
 
@@ -62,7 +63,7 @@ const styles = {
   gif2Ipad: {
     position: "absolute",
     height: "60%",
-    top: "105%",
+    top: "118.5%",
     left: "5%"
   },
 
@@ -74,8 +75,8 @@ const styles = {
   },
   gif2PhoneS: {
     position: "absolute",
-    height: "55%",
-    top: "106%",
+    height: "54%",
+    top: "112%",
     left: "5%"
   },
   gif3: {
@@ -87,7 +88,7 @@ const styles = {
   gif3Ipad: {
     position: "absolute",
     height: "60%",
-    top: "134%",
+    top: "149%",
     right: "5%"
   },
   gif3PhoneL: {
@@ -98,8 +99,8 @@ const styles = {
   },
   gif3PhoneS: {
     position: "absolute",
-    height: "55%",
-    top: "134%",
+    height: "54%",
+    top: "137%",
     right: "5%"
   }
 };
@@ -643,11 +644,11 @@ class BlueStreakContent extends Component {
             </Keyframes>
           </div>
         </MediaQuery>
-
         <img className="bs2" src={bs2} alt="Blue Streak" />
         <img className="bs3" src={bs3} alt="Blue Streak" />
         <img className="bs4" src={bs4} alt="Blue Streak" />
         <img className="bs5" src={bs5} alt="Blue Streak" />
+        <img className="bs6" src={bs6} alt="Blue Streak" />
       </div>
     );
   }
