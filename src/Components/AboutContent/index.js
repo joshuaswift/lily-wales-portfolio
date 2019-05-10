@@ -40,7 +40,7 @@ class AboutContent extends Component {
             <br /> examines the ability
             <br />
             language has to
-            <br /> anesthetise public
+            <br /> anaesthetise public
             <br /> perception.
           </p>
         </div>
@@ -49,11 +49,14 @@ class AboutContent extends Component {
           <p>
             RESIDENCIES & RESEARCH TRIPS <br />
             <br />
+            – New York from a-n UPCOMING JUNE 2019 <br />
             – The New Art Gallery Walsall 2018 <br />
             – Hiroshima & Nagasaki from DYCP Arts Council England 2018
             <br /> – Nevada Test Site from Engine & Grain bursary 2018
             <br /> <br />
             SHOWS <br />
+            <br />
+            – Illustrated Brum X PMT 2019
             <br />
             – Blue Streak in Mezz at The New Art Gallery Walsall 2019
             <br />
@@ -85,11 +88,14 @@ class AboutContent extends Component {
           <p>
             RESIDENCIES & RESEARCH TRIPS <br />
             <br />
+            – New York from a-n UPCOMING JUNE 2019 <br />
             – The New Art Gallery Walsall 2018 <br />
             – Hiroshima & Nagasaki from DYCP Arts Council England 2018
             <br /> – Nevada Test Site from Engine & Grain bursary 2018
             <br /> <br />
             SHOWS <br />
+            <br />
+            – Illustrated Brum X PMT 2019
             <br />
             – Blue Streak in Mezz at The New Art Gallery Walsall 2019
             <br />

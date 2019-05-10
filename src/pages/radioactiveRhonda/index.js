@@ -6,7 +6,6 @@ import RhondaImages from "./../../Components/RhondaImages";
 import HomeButton from "./../../Components/HomeButton";
 import ProjectTitle from "./../../Components/ProjectTitle";
 import BackToTop from "./../../Components/BackToTop";
-import "./radioactiveRhonda.css";
 
 class RadioactiveRhonda extends Component {
   render() {

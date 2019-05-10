@@ -9,7 +9,6 @@ import Trumpin from "../../pages/Trumpin";
 import BabyJanes from "../../pages/BabyJanes";
 import LasVagueness from "../../pages/LasVagueness";
 import Phorm from "../../pages/Phorm";
-import OperationPlumbob from "../../pages/OperationPlumbob";
 import Nuclearosis from "../../pages/Nuclearosis";
 import WarMachine from "../../pages/WarMachine";
 import About from "../../pages/About";
@@ -28,7 +27,6 @@ const App = () => (
       <Route path="/bikinibottom" component={BikiniBottom} />
       <Route path="/lasvagueness" component={LasVagueness} />
       <Route path="/phorm" component={Phorm} />
-      <Route path="/operationplumbob" component={OperationPlumbob} />
       <Route path="/nuclearosis" component={Nuclearosis} />
       <Route path="/warmachine" component={WarMachine} />
       <Route path="/about" component={About} />

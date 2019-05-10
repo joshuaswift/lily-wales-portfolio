@@ -6,7 +6,7 @@ import BackToTop from "./../../Components/BackToTop";
 import AboutContent from "./../../Components/AboutContent";
 import MediaQuery from "react-responsive";
 
-class BabyJanes extends Component {
+class About extends Component {
   render() {
     return (
       <div>
@@ -22,7 +22,7 @@ class BabyJanes extends Component {
         </MediaQuery>
         <MediaQuery minWidth={601} maxWidth={899}>
           <HomeButton
-            top="193.5%"
+            top="198.5%"
             color="rgb(248,39,127)"
             left="10%"
             paddingBottom="20px"
@@ -31,7 +31,7 @@ class BabyJanes extends Component {
         <MediaQuery maxWidth={600}>
           <HomeButton
             color="rgb(248,39,127)"
-            top="238%"
+            top="243%"
             left="11%"
             paddingBottom="50px"
           />
@@ -52,14 +52,14 @@ class BabyJanes extends Component {
           <BackToTop top="250%" color="rgb(248,39,127)" right="5.5%" />{" "}
         </MediaQuery>
         <MediaQuery minWidth={601} maxWidth={899}>
-          <BackToTop top="190%" color="rgb(248,39,127)" left="10%" />{" "}
+          <BackToTop top="195%" color="rgb(248,39,127)" left="10%" />{" "}
         </MediaQuery>
         <MediaQuery maxWidth={600}>
-          <BackToTop top="234%" color="rgb(248,39,127)" left="11%" />
+          <BackToTop top="239%" color="rgb(248,39,127)" left="11%" />
         </MediaQuery>
       </div>
     );
   }
 }
 
-export default BabyJanes;
+export default About;

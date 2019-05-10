@@ -4,11 +4,10 @@ import MediaQuery from "react-responsive";
 import "./HomeImages.css";
 import rhondaHomeImg from "./rhondaHome.jpg";
 import plumbobHomeImg from "./operationPlumbobHome.png";
-import phormHomeImg from "./phormHome.jpg";
 // import trumpinHomeImg from './trumpinHome.png';
 import babyJanesHomeImg from "./babyJanesHome.jpg";
 import warMachineHomeImg from "./warMachineHome.jpg";
-// import lasVaguenessHomeImg from "./lasVaguenessHome.png";
+import lasVaguenessHomeImg from "./lasVaguenessHome.jpg";
 import nuclearosisHomeImg from "./nuclearosisHome.jpg";
 import blueStreakHomeImg from "./blueStreakHome.jpg";
 import aboutHomeImg from "./aboutHome.png";
@@ -78,24 +77,19 @@ class HomeImages extends Component {
       // 	className: 'trumpinTitle',
       // 	path: './trumpin'
       // },
-      {
-        label: "Phorm",
-        src: phormHomeImg,
-        className: "phormTitle",
-        path: "./phorm"
-      },
+
       // { label: 'Nuclearosis', src: nuclearosisHomeImg, path: './nuclearosis' },
-      // {
-      // 	label: 'Las Vagueness',
-      // 	src: lasVaguenessHomeImg,
-      // 	className: 'lasVaguenessTitle',
-      // 	path: './lasVagueness'
-      // },
+      {
+        label: "Las Vagueness",
+        src: lasVaguenessHomeImg,
+        className: "lasVaguenessTitle",
+        path: "./lasVagueness"
+      },
       {
         label: "Operation Plumbob",
         src: plumbobHomeImg,
-        className: "plumbob",
-        path: "/operationplumbob"
+        className: "phormTitle",
+        path: "./phorm"
       },
       { label: "Contact", src: nuclearosisHomeImg, path: "contact" },
       { label: "About", src: aboutHomeImg, path: "about" }
